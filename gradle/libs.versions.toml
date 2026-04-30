@@ -3,10 +3,15 @@ androidMinSdk = "23"
 androidTargetSdk = "36"
 androidCompileSdk = "36"
 androidCompileSdkExtension = "19"
-versionPackage="com.appinitdev.imagetools.pro"
-versionName = "1.2.5_Premium"
-versionCode = "5"
 jvmTarget = "21"
+
+#versionPackage="com.appinitdev.imagetools.pro"
+#versionName = "1.2.5_Premium"
+#versionCode = "5"
+
+versionPackage="com.appinitdev.imagetools"
+versionName = "1.2.6_Free"
+versionCode = "6"
 
 
 

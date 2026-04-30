@@ -412,7 +412,7 @@ private object ScreenConstantsImpl : ScreenConstants {
                     LoadNetImage(),
                     GradientMaker(),
                     NoiseGeneration,
-                    
+
                 ),
                 title = R.string.image,
                 selectedIcon = Icons.Rounded.FileImage,
