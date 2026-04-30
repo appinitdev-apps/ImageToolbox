@@ -74,8 +74,8 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            resValue("string", "app_launcher_name", "Image Toolbox")
-            resValue("string", "file_provider", "com.t8rin.imagetoolbox.fileprovider")
+            //resValue("string", "app_launcher_name", "Image Toolbox")
+            //resValue("string", "file_provider", "com.t8rin.imagetoolbox.fileprovider")
         }
         create("benchmark") {
             initWith(buildTypes.getByName("release"))
