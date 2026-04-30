@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">תמונות ל-WEBP</string>
     <string name="select_webp_image_to_start">בחר תמונת WEBP כדי להתחיל</string>
     <string name="manage_storage_extra_types">אין גישה מלאה לקבצים</string>
-    <string name="manage_storage_extra_types_sub">אפשר לכל הקבצים גישה לראות JXL, QOI ותמונות אחרות שאינן מזוהות כתמונות באנדרואיד. ללא הרשאה Image Toolbox אינו יכול להציג את התמונות הללו</string>
+    <string name="manage_storage_extra_types_sub">אפשר לכל הקבצים גישה לראות JXL, QOI ותמונות אחרות שאינן מזוהות כתמונות באנדרואיד. ללא הרשאה Photo Utility Hub אינו יכול להציג את התמונות הללו</string>
     <string name="default_draw_color">צבע ציור ברירת מחדל</string>
     <string name="default_draw_path_mode">מצב ציור ברירת מחדל</string>
     <string name="add_timestamp">הוסף חותמת זמן</string>
@@ -2196,10 +2196,10 @@
     <string name="background_color_for_alpha_formats_sub">מוסיף יכולת להגדיר צבע רקע עבור כל פורמט תמונה עם תמיכה באלפא, כאשר מושבת זה זמין עבור לא אלפא בלבד</string>
     <string name="open_markup_project">פרויקט פתוח</string>
     <string name="open_markup_project_sub">המשך לערוך פרויקט תמונה כלים שנשמר בעבר</string>
-    <string name="markup_project_open_failed">לא ניתן לפתוח את פרויקט Image Toolbox</string>
-    <string name="markup_project_missing_data">בפרויקט Image Toolbox חסרים נתוני פרויקט</string>
-    <string name="markup_project_corrupted">פרויקט Image Toolbox פגום</string>
-    <string name="unsupported_markup_project_version">גרסת פרויקט Image Toolbox לא נתמכת: %1$d</string>
+    <string name="markup_project_open_failed">לא ניתן לפתוח את פרויקט Photo Utility Hub</string>
+    <string name="markup_project_missing_data">בפרויקט Photo Utility Hub חסרים נתוני פרויקט</string>
+    <string name="markup_project_corrupted">פרויקט Photo Utility Hub פגום</string>
+    <string name="unsupported_markup_project_version">גרסת פרויקט Photo Utility Hub לא נתמכת: %1$d</string>
     <string name="save_markup_project">שמור פרויקט</string>
     <string name="save_markup_project_sub">אחסן שכבות, רקע והיסטוריית עריכה בקובץ פרויקט הניתן לעריכה</string>
     <string name="failed_to_open">הפתיחה נכשלה</string>

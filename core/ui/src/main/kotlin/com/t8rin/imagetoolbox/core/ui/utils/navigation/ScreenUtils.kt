@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 package com.t8rin.imagetoolbox.core.ui.utils.navigation
 
@@ -412,9 +399,37 @@ private object ScreenConstantsImpl : ScreenConstants {
         listOf(
             ScreenGroup(
                 entries = listOf(
+                    Draw(),
                     SingleEdit(),
+                    PickColorFromImage(),
+                    RecognizeText(),
+                    Compare(),
+                    ImagePreview(),
+                    //WallpapersExport,
+                    AsciiArt(),
+                    Base64Tools(),
+                    SvgMaker(),
+                    LoadNetImage(),
+                    GradientMaker(),
+                    NoiseGeneration,
+                ),
+                title = R.string.image,
+                selectedIcon = Icons.Rounded.FileImage,
+                baseIcon = Icons.Outlined.FileImage
+            ),
+            ScreenGroup(
+                entries = listOf(
+                    Filter(),
+                    EraseBackground(),
+                    Watermarking(),
+                    CollageMaker(),
+                    MarkupLayers(),
+
                     ResizeAndConvert(),
                     FormatConversion(),
+                    ImageStitching(),
+                    ImageStacking(),
+                    ImageSplitting(),
                     Crop(),
                     ImageCutter(),
                     WeightResize(),
@@ -426,44 +441,20 @@ private object ScreenConstantsImpl : ScreenConstants {
                 selectedIcon = Icons.Rounded.MiniEditLarge,
                 baseIcon = Icons.Outlined.MiniEditLarge
             ),
+//            ScreenGroup(
+//                entries = listOf(
+//
+//                ),
+//                title = R.string.create,
+//                selectedIcon = Icons.Rounded.WandShine,
+//                baseIcon = Icons.Outlined.WandShine
+//            ),
+
             ScreenGroup(
                 entries = listOf(
-                    Filter(),
-                    Draw(),
-                    EraseBackground(),
-                    MarkupLayers(),
                     AiTools(),
-                    CollageMaker(),
-                    ImageStitching(),
-                    ImageStacking(),
-                    ImageSplitting(),
-                    Watermarking(),
-                    GradientMaker(),
-                    NoiseGeneration,
-                ),
-                title = R.string.create,
-                selectedIcon = Icons.Rounded.WandShine,
-                baseIcon = Icons.Outlined.WandShine
-            ),
-            ScreenGroup(
-                entries = listOf(
-                    PickColorFromImage(),
-                    RecognizeText(),
-                    Compare(),
-                    ImagePreview(),
-                    WallpapersExport,
-                    Base64Tools(),
-                    SvgMaker(),
-                    PaletteTools(),
-                    LoadNetImage(),
-                ),
-                title = R.string.image,
-                selectedIcon = Icons.Rounded.FileImage,
-                baseIcon = Icons.Outlined.FileImage
-            ),
-            ScreenGroup(
-                entries = listOf(
                     PdfTools,
+                    PaletteTools(),
                     DocumentScanner,
                     ScanQrCode(),
                     ColorTools,
@@ -472,7 +463,7 @@ private object ScreenConstantsImpl : ScreenConstants {
                     Cipher(),
                     ChecksumTools(),
                     Zip(),
-                    AsciiArt(),
+
                     JxlTools(),
                     ApngTools(),
                     WebpTools(),

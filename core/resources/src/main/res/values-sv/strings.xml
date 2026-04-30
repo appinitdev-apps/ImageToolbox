@@ -921,7 +921,7 @@
     <string name="header_today">I dag</string>
     <string name="header_yesterday">I går</string>
     <string name="embedded_picker">Inbäddad väljare</string>
-    <string name="embedded_picker_sub">Image Toolboxs bildväljare</string>
+    <string name="embedded_picker_sub">Photo Utility Hubs bildväljare</string>
     <string name="no_permissions">Inga behörigheter</string>
     <string name="request">Begäran</string>
     <string name="pick_multiple_media">Välj flera media</string>
@@ -1410,7 +1410,7 @@
     <string name="webp_type_to_webp">Bilder till WEBP</string>
     <string name="select_webp_image_to_start">Välj WEBP-bild för att starta</string>
     <string name="manage_storage_extra_types">Ingen fullständig åtkomst till filer</string>
-    <string name="manage_storage_extra_types_sub">Tillåt alla filer åtkomst för att se JXL, QOI och andra bilder som inte känns igen som bilder på Android. Utan tillstånd kan Image Toolbox inte visa dessa bilder</string>
+    <string name="manage_storage_extra_types_sub">Tillåt alla filer åtkomst för att se JXL, QOI och andra bilder som inte känns igen som bilder på Android. Utan tillstånd kan Photo Utility Hub inte visa dessa bilder</string>
     <string name="default_draw_color">Standard ritfärg</string>
     <string name="default_draw_path_mode">Standardläge för ritningsväg</string>
     <string name="add_timestamp">Lägg till tidsstämpel</string>
@@ -2193,11 +2193,11 @@
     <string name="keep_date_time_sub">Bevara alltid exif-taggar relaterade till datum och tid, fungerar oberoende av keep exif-alternativet</string>
     <string name="background_color_for_alpha_formats">Bakgrundsfärg För Alfaformat</string>
     <string name="background_color_for_alpha_formats_sub">Lägger till möjlighet att ställa in bakgrundsfärg för varje bildformat med alfa-stöd, när det är inaktiverat är detta endast tillgängligt för icke-alfa-one</string>
-    <string name="open_markup_project_sub">Fortsätt redigera ett tidigare sparat Image Toolbox-projekt</string>
-    <string name="markup_project_open_failed">Det gick inte att öppna Image Toolbox-projektet</string>
-    <string name="markup_project_missing_data">Image Toolbox-projektet saknar projektdata</string>
-    <string name="markup_project_corrupted">Image Toolbox-projektet är skadat</string>
-    <string name="unsupported_markup_project_version">Image Toolbox-projektversion som inte stöds: %1$d</string>
+    <string name="open_markup_project_sub">Fortsätt redigera ett tidigare sparat Photo Utility Hub-projekt</string>
+    <string name="markup_project_open_failed">Det gick inte att öppna Photo Utility Hub-projektet</string>
+    <string name="markup_project_missing_data">Photo Utility Hub-projektet saknar projektdata</string>
+    <string name="markup_project_corrupted">Photo Utility Hub-projektet är skadat</string>
+    <string name="unsupported_markup_project_version">Photo Utility Hub-projektversion som inte stöds: %1$d</string>
     <string name="save_markup_project_sub">Lagra lager, bakgrund och redigeringshistorik i en redigerbar projektfil</string>
     <string name="ocr_write_to_searchable_pdf">Skriv till sökbar PDF</string>
     <string name="ocr_write_to_searchable_pdf_sub">Känn igen text från bildbatch och spara sökbar PDF med bild och valbart textlager</string>

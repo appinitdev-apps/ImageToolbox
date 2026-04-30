@@ -860,7 +860,7 @@
     <string name="images_to_svg">Immagini in Svg</string>
     <string name="try_again">Riprova</string>
     <string name="lanczos_bessel_sub">Metodo di ricampionamento che mantiene un\'interpolazione di alta qualità applicando una funzione di Bessel (jinc) ai valori dei pixel</string>
-    <string name="embedded_picker_sub">Utilizza il selezionatore di immagini di Image Toolbox invece di quelli predefiniti dal sistema.</string>
+    <string name="embedded_picker_sub">Utilizza il selezionatore di immagini di Photo Utility Hub invece di quelli predefiniti dal sistema.</string>
     <string name="show_settings_in_landscape">Mostra le impostazioni in orizzontale</string>
     <string name="fullscreen_settings">Impostazioni a schermo intero</string>
     <string name="fullscreen_settings_sub">Abilita e la pagina delle impostazioni verrà sempre aperta a schermo intero invece che lateralmente</string>
@@ -1364,7 +1364,7 @@
     <string name="webp_type_to_webp">Immagini su WEBP</string>
     <string name="select_webp_image_to_start">Scegli l\'immagine WEBP per iniziare</string>
     <string name="manage_storage_extra_types">Nessun accesso completo ai file</string>
-    <string name="manage_storage_extra_types_sub">Consenti l\'accesso a tutti i file per vedere JXL, QOI e altre immagini che non sono riconosciute come immagini su Android. Senza l\'autorizzazione Image Toolbox non è in grado di mostrare tali immagini</string>
+    <string name="manage_storage_extra_types_sub">Consenti l\'accesso a tutti i file per vedere JXL, QOI e altre immagini che non sono riconosciute come immagini su Android. Senza l\'autorizzazione Photo Utility Hub non è in grado di mostrare tali immagini</string>
     <string name="default_draw_color">Colore di disegno predefinito</string>
     <string name="default_draw_path_mode">Modalità di tracciamento predefinita</string>
     <string name="add_timestamp">Aggiungi timestamp</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Colore di sfondo per i formati Alpha</string>
     <string name="background_color_for_alpha_formats_sub">Aggiunge la possibilità di impostare il colore di sfondo per ogni formato immagine con supporto alpha, quando disabilitato è disponibile solo per quelli non alpha</string>
     <string name="open_markup_project">Apri progetto</string>
-    <string name="open_markup_project_sub">Continua a modificare un progetto Image Toolbox salvato in precedenza</string>
-    <string name="markup_project_open_failed">Impossibile aprire il progetto Image Toolbox</string>
-    <string name="markup_project_missing_data">Nel progetto Image Toolbox mancano i dati del progetto</string>
-    <string name="markup_project_corrupted">Il progetto Image Toolbox è danneggiato</string>
-    <string name="unsupported_markup_project_version">Versione del progetto Image Toolbox non supportata: %1$d</string>
+    <string name="open_markup_project_sub">Continua a modificare un progetto Photo Utility Hub salvato in precedenza</string>
+    <string name="markup_project_open_failed">Impossibile aprire il progetto Photo Utility Hub</string>
+    <string name="markup_project_missing_data">Nel progetto Photo Utility Hub mancano i dati del progetto</string>
+    <string name="markup_project_corrupted">Il progetto Photo Utility Hub è danneggiato</string>
+    <string name="unsupported_markup_project_version">Versione del progetto Photo Utility Hub non supportata: %1$d</string>
     <string name="save_markup_project">Salva progetto</string>
     <string name="save_markup_project_sub">Memorizza livelli, sfondo e cronologia delle modifiche in un file di progetto modificabile</string>
     <string name="failed_to_open">Impossibile aprire</string>

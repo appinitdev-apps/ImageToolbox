@@ -841,7 +841,7 @@
     <string name="header_today">Dziś</string>
     <string name="header_yesterday">Wczoraj</string>
     <string name="embedded_picker">Wbudowany selektor</string>
-    <string name="embedded_picker_sub">Selektor obrazów Image Toolbox</string>
+    <string name="embedded_picker_sub">Selektor obrazów Photo Utility Hub</string>
     <string name="no_permissions">Brak uprawnień</string>
     <string name="request">Żądanie</string>
     <string name="auto_paste">Automatyczne wklejanie</string>
@@ -1109,7 +1109,7 @@
     <string name="tag_flash_energy">Moc lampy błyskowej</string>
     <string name="deuteranopia_sub">Niezdolność do postrzegania odcieni zieleni</string>
     <string name="lanczos_6">Lanczos 6</string>
-    <string name="image_toolbox_in_telegram">Image Toolbox na Telegramie 🎉</string>
+    <string name="image_toolbox_in_telegram">Photo Utility Hub na Telegramie 🎉</string>
     <string name="custom_options">Opcje użytkownika</string>
     <string name="protanopia_sub">Niezdolność do postrzegania odcieni czerwieni</string>
     <string name="coffee">Kawa</string>
@@ -1526,7 +1526,7 @@
     <string name="dot_dashed">Przerywana kropka</string>
     <string name="dashed_sub">Rysuje przerywaną linię wzdłuż narysowanej ścieżki z określonym rozmiarem odstępu</string>
     <string name="formatted_timestamp">Sformatowany znacznik czasu</string>
-    <string name="manage_storage_extra_types_sub">Zezwól wszystkim plikom na dostęp do wyświetlania plików JXL, QOI i innych obrazów, które nie są rozpoznawane jako obrazy w systemie Android. Bez tego uprawnienia aplikacja Image Toolbox nie będzie w stanie wyświetlać tych obrazów</string>
+    <string name="manage_storage_extra_types_sub">Zezwól wszystkim plikom na dostęp do wyświetlania plików JXL, QOI i innych obrazów, które nie są rozpoznawane jako obrazy w systemie Android. Bez tego uprawnienia aplikacja Photo Utility Hub nie będzie w stanie wyświetlać tych obrazów</string>
     <string name="zigzag">Zygzak</string>
     <string name="formatted_timestamp_sub">Włącz formatowanie znacznika czasu w nazwie pliku wyjściowego zamiast podstawowych milisekund</string>
     <string name="dot_dashed_sub">Rysuje kropkę i przerywaną linię wzdłuż podanej ścieżki</string>
@@ -2195,11 +2195,11 @@
     <string name="background_color_for_alpha_formats">Kolor tła dla formatów Alpha</string>
     <string name="background_color_for_alpha_formats_sub">Dodaje możliwość ustawienia koloru tła dla każdego formatu obrazu z obsługą alfa, gdy jest wyłączona, dostępna tylko dla formatów innych niż alfa</string>
     <string name="open_markup_project">Otwórz projekt</string>
-    <string name="open_markup_project_sub">Kontynuuj edycję wcześniej zapisanego projektu Image Toolbox</string>
-    <string name="markup_project_open_failed">Nie można otworzyć projektu Image Toolbox</string>
-    <string name="markup_project_missing_data">W projekcie Image Toolbox brakuje danych projektu</string>
-    <string name="markup_project_corrupted">Projekt Image Toolbox jest uszkodzony</string>
-    <string name="unsupported_markup_project_version">Nieobsługiwana wersja projektu Image Toolbox: %1$d</string>
+    <string name="open_markup_project_sub">Kontynuuj edycję wcześniej zapisanego projektu Photo Utility Hub</string>
+    <string name="markup_project_open_failed">Nie można otworzyć projektu Photo Utility Hub</string>
+    <string name="markup_project_missing_data">W projekcie Photo Utility Hub brakuje danych projektu</string>
+    <string name="markup_project_corrupted">Projekt Photo Utility Hub jest uszkodzony</string>
+    <string name="unsupported_markup_project_version">Nieobsługiwana wersja projektu Photo Utility Hub: %1$d</string>
     <string name="save_markup_project">Zapisz projekt</string>
     <string name="save_markup_project_sub">Przechowuj warstwy, tło i historię edycji w edytowalnym pliku projektu</string>
     <string name="failed_to_open">Nie udało się otworzyć</string>

@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 package com.t8rin.imagetoolbox.feature.root.presentation.screenLogic
 
@@ -33,11 +20,9 @@ import com.arkivanov.decompose.router.stack.pop
 import com.arkivanov.decompose.router.stack.pushNew
 import com.arkivanov.decompose.value.MutableValue
 import com.arkivanov.decompose.value.Value
-import com.t8rin.imagetoolbox.core.domain.APP_CHANGELOG
 import com.t8rin.imagetoolbox.core.domain.coroutines.DispatchersHolder
 import com.t8rin.imagetoolbox.core.domain.model.ExtraDataType
 import com.t8rin.imagetoolbox.core.domain.model.ImageModel
-import com.t8rin.imagetoolbox.core.domain.model.PerformanceClass
 import com.t8rin.imagetoolbox.core.domain.remote.AnalyticsManager
 import com.t8rin.imagetoolbox.core.domain.resource.ResourceManager
 import com.t8rin.imagetoolbox.core.domain.saving.FileController
@@ -55,9 +40,7 @@ import com.t8rin.imagetoolbox.core.ui.utils.helper.handleDeeplinks
 import com.t8rin.imagetoolbox.core.ui.utils.navigation.Screen
 import com.t8rin.imagetoolbox.core.ui.utils.state.update
 import com.t8rin.imagetoolbox.core.ui.widget.other.ToastDuration
-import com.t8rin.imagetoolbox.core.utils.isNeedUpdate
 import com.t8rin.imagetoolbox.core.utils.makeLog
-import com.t8rin.imagetoolbox.core.utils.parseChangelog
 import com.t8rin.imagetoolbox.core.utils.toImageModel
 import com.t8rin.imagetoolbox.feature.root.presentation.components.navigation.ChildProvider
 import com.t8rin.imagetoolbox.feature.root.presentation.components.navigation.NavigationChild
@@ -67,18 +50,13 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import io.ktor.client.HttpClient
-import io.ktor.client.request.get
-import io.ktor.client.statement.bodyAsChannel
-import io.ktor.utils.io.jvm.javaio.toInputStream
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.withContext
 
 class RootComponent @AssistedInject internal constructor(
     @Assisted componentContext: ComponentContext,
@@ -93,7 +71,6 @@ class RootComponent @AssistedInject internal constructor(
     resourceManager: ResourceManager,
 ) : BaseComponent(dispatchersHolder, componentContext), ResourceManager by resourceManager {
 
-    private var updatesJob: Job? by smartJob()
 
     private val _backupRestoredEvents: Channel<Boolean> = Channel(Channel.BUFFERED)
     val backupRestoredEvents: Flow<Boolean> = _backupRestoredEvents.receiveAsFlow()
@@ -154,17 +131,7 @@ class RootComponent @AssistedInject internal constructor(
     private val _shouldShowExitDialog = mutableStateOf(true)
     val shouldShowDialog by _shouldShowExitDialog
 
-    private val _showGithubReviewDialog = mutableStateOf(false)
-    val showGithubReviewDialog by _showGithubReviewDialog
 
-    private val _showTelegramGroupDialog = mutableStateOf(false)
-    val showTelegramGroupDialog by _showTelegramGroupDialog
-
-    private val _tag = mutableStateOf("")
-    val tag by _tag
-
-    private val _changelog = mutableStateOf("")
-    val changelog by _changelog
 
     private val _filterPreviewModel: MutableState<ImageModel> =
         mutableStateOf(R.drawable.filter_preview_source.toImageModel())
@@ -185,9 +152,7 @@ class RootComponent @AssistedInject internal constructor(
         settingsManager
             .settingsState
             .onEach { state ->
-                _showTelegramGroupDialog.update {
-                    state.appOpenCount % 6 == 0 && state.appOpenCount != 0 && !state.isTelegramGroupOpened
-                }
+
                 _settingsState.value = state
             }
             .launchIn(componentScope)
@@ -213,11 +178,7 @@ class RootComponent @AssistedInject internal constructor(
             }.launchIn(componentScope)
     }
 
-    fun toggleShowUpdateDialog() {
-        componentScope.launch {
-            settingsManager.toggleShowUpdateDialogOnStartup()
-        }
-    }
+
 
     fun setPresets(newPresets: List<Int>) {
         componentScope.launch {
@@ -225,16 +186,13 @@ class RootComponent @AssistedInject internal constructor(
         }
     }
 
-    fun cancelledUpdate(showAgain: Boolean = false) {
-        if (!showAgain) _isUpdateCancelled.value = true
-        _showUpdateDialog.value = false
-    }
+
 
     fun tryGetUpdate(
         isNewRequest: Boolean = false,
         onNoUpdates: () -> Unit = {}
     ) {
-        if (settingsState.appOpenCount < 2 && !isNewRequest) return
+        /*if (settingsState.appOpenCount < 2 && !isNewRequest) return
         val isInstalledFromMarket = settingsManager.isInstalledFromPlayStore()
 
         val showDialog = settingsState.showUpdateDialogOnStartup
@@ -251,38 +209,9 @@ class RootComponent @AssistedInject internal constructor(
                     )
                 }
             }
-        }
+        }*/
     }
 
-    private suspend fun checkForUpdates(
-        showDialog: Boolean,
-        onNoUpdates: () -> Unit
-    ) = withContext(defaultDispatcher) {
-        "start updates check".makeLog("checkForUpdates")
-        runCatching {
-            val (tag, changelog) = client
-                .get(APP_CHANGELOG).bodyAsChannel().toInputStream()
-                .use { it.parseChangelog() }
-
-            _tag.update { tag }
-            _changelog.update { changelog }
-
-            val isNeedUpdate = isNeedUpdate(
-                updateName = tag,
-                allowBetas = settingsState.allowBetas
-            ).makeLog("checkForUpdates") { "isNeedUpdate = $it" }
-
-            if (isNeedUpdate) {
-                _isUpdateAvailable.value = true
-                _showUpdateDialog.value = showDialog
-            } else {
-                onNoUpdates()
-            }
-        }.onFailure {
-            it.makeLog("checkForUpdates")
-            onNoUpdates()
-        }
-    }
 
     fun hideSelectDialog() {
         _showSelectDialog.value = false
@@ -355,52 +284,18 @@ class RootComponent @AssistedInject internal constructor(
         _shouldShowExitDialog.update { false }
     }
 
-    fun toggleAllowBetas() {
-        componentScope.launch {
-            settingsManager.toggleAllowBetas()
-        }
-    }
+
 
     fun onWantGithubReview() {
-        _showGithubReviewDialog.update { true }
+
     }
 
-    fun hideReviewDialog() {
-        _showGithubReviewDialog.update { false }
-    }
 
-    fun hideTelegramGroupDialog() {
-        _showTelegramGroupDialog.update { false }
-    }
-
-    fun adjustPerformance(performanceClass: PerformanceClass) {
-        componentScope.launch {
-            settingsManager.adjustPerformance(performanceClass)
-        }
-    }
-
-    fun registerDonateDialogOpen() {
-        componentScope.launch {
-            settingsManager.registerDonateDialogOpen()
-        }
-    }
-
-    fun notShowDonateDialogAgain() {
-        componentScope.launch {
-            settingsManager.setNotShowDonateDialogAgain()
-        }
-    }
-
-    fun registerTelegramGroupOpen() {
-        componentScope.launch {
-            settingsManager.registerTelegramGroupOpen()
-        }
-    }
 
     fun navigateTo(screen: Screen) {
         componentScope.launch {
-            delay(100)
-            screen.simpleName.makeLog("Navigator").also(analyticsManager::registerScreenOpen)
+           // delay(100)
+           // screen.simpleName.makeLog("Navigator").also(analyticsManager::registerScreenOpen)
             navController.pushNew(screen)
             hideSelectDialog()
         }
@@ -408,13 +303,13 @@ class RootComponent @AssistedInject internal constructor(
 
     fun replaceTo(screen: Screen) {
         componentScope.launch {
-            delay(100)
-            screen.simpleName.makeLog("Navigator").also(analyticsManager::registerScreenOpen)
+           // delay(100)
+            //screen.simpleName.makeLog("Navigator").also(analyticsManager::registerScreenOpen)
             navController.navigate(
                 transformer = { stack ->
                     stack.dropLastWhile { it !is Screen.PdfTools } + screen
                 }
-            )   
+            )
             hideSelectDialog()
         }
     }
@@ -423,7 +318,7 @@ class RootComponent @AssistedInject internal constructor(
         if (childStack.items.lastOrNull()?.configuration != Screen.Main) {
             navigateBack()
         }
-        screen.simpleName.makeLog("Navigator").also(analyticsManager::registerScreenOpen)
+        //screen.simpleName.makeLog("Navigator").also(analyticsManager::registerScreenOpen)
         navController.pushNew(screen)
     }
 

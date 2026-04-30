@@ -867,7 +867,7 @@
     <string name="header_today">I dag</string>
     <string name="header_yesterday">I går</string>
     <string name="embedded_picker">Embedded Picker</string>
-    <string name="embedded_picker_sub">Image Toolbox\'s billedvælger</string>
+    <string name="embedded_picker_sub">Photo Utility Hub\'s billedvælger</string>
     <string name="no_permissions">Ingen tilladelser</string>
     <string name="request">Anmodning</string>
     <string name="pick_multiple_media">Vælg flere medier</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Billeder til WEBP</string>
     <string name="select_webp_image_to_start">Vælg WEBP-billede for at starte</string>
     <string name="manage_storage_extra_types">Ingen fuld adgang til filer</string>
-    <string name="manage_storage_extra_types_sub">Tillad alle filer adgang til at se JXL, QOI og andre billeder, der ikke genkendes som billeder på Android. Uden tilladelsen er Image Toolbox ikke i stand til at vise disse billeder</string>
+    <string name="manage_storage_extra_types_sub">Tillad alle filer adgang til at se JXL, QOI og andre billeder, der ikke genkendes som billeder på Android. Uden tilladelsen er Photo Utility Hub ikke i stand til at vise disse billeder</string>
     <string name="default_draw_color">Standard tegnefarve</string>
     <string name="default_draw_path_mode">Standard tegnestitilstand</string>
     <string name="add_timestamp">Tilføj tidsstempel</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Baggrundsfarve til alfaformater</string>
     <string name="background_color_for_alpha_formats_sub">Tilføjer mulighed for at indstille baggrundsfarve for hvert billedformat med alfa-understøttelse, når den er deaktiveret, er dette kun tilgængeligt for ikke-alfa-one</string>
     <string name="open_markup_project">Åbent projekt</string>
-    <string name="open_markup_project_sub">Fortsæt med at redigere et tidligere gemt Image Toolbox-projekt</string>
-    <string name="markup_project_open_failed">Kan ikke åbne Image Toolbox-projektet</string>
-    <string name="markup_project_missing_data">Image Toolbox-projektet mangler projektdata</string>
-    <string name="markup_project_corrupted">Image Toolbox-projektet er beskadiget</string>
-    <string name="unsupported_markup_project_version">Ikke-understøttet Image Toolbox-projektversion: %1$d</string>
+    <string name="open_markup_project_sub">Fortsæt med at redigere et tidligere gemt Photo Utility Hub-projekt</string>
+    <string name="markup_project_open_failed">Kan ikke åbne Photo Utility Hub-projektet</string>
+    <string name="markup_project_missing_data">Photo Utility Hub-projektet mangler projektdata</string>
+    <string name="markup_project_corrupted">Photo Utility Hub-projektet er beskadiget</string>
+    <string name="unsupported_markup_project_version">Ikke-understøttet Photo Utility Hub-projektversion: %1$d</string>
     <string name="save_markup_project">Gem projekt</string>
     <string name="save_markup_project_sub">Gem lag, baggrund og redigeringshistorik i en redigerbar projektfil</string>
     <string name="failed_to_open">Kunne ikke åbne</string>

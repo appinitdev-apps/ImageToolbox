@@ -40,7 +40,6 @@ import com.t8rin.imagetoolbox.core.ui.widget.icon_shape.LocalIconShapeContentCol
 import com.t8rin.imagetoolbox.core.ui.widget.modifier.ShapeDefaults
 import com.t8rin.imagetoolbox.core.ui.widget.modifier.pulsate
 import com.t8rin.imagetoolbox.core.ui.widget.preferences.PreferenceItem
-import com.t8rin.imagetoolbox.feature.settings.presentation.components.additional.DonateSheet
 
 @Composable
 fun DonateSettingItem(
@@ -75,8 +74,8 @@ fun DonateSettingItem(
             overrideIconShapeContentColor = true
         )
     }
-    DonateSheet(
-        visible = showDonateSheet,
-        onDismiss = { showDonateSheet = false }
-    )
+//    DonateSheet(
+//        visible = showDonateSheet,
+//        onDismiss = { showDonateSheet = false }
+//    )
 }

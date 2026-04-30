@@ -865,7 +865,7 @@
     <string name="header_today">Bugün</string>
     <string name="header_yesterday">Dün</string>
     <string name="embedded_picker">Gömülü Seçici</string>
-    <string name="embedded_picker_sub">Image Toolbox\'ın resim seçicisi</string>
+    <string name="embedded_picker_sub">Photo Utility Hub\'ın resim seçicisi</string>
     <string name="no_permissions">İzin yok</string>
     <string name="request">Talep et</string>
     <string name="pick_multiple_media">Çoklu Medya Seç</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Resimlerden WEBP\'ye</string>
     <string name="select_webp_image_to_start">Başlamak için WEBP resmi seçin</string>
     <string name="manage_storage_extra_types">Dosyalara tam erişim yok</string>
-    <string name="manage_storage_extra_types_sub">Android\'de resim olarak tanınmayan JXL, QOI ve diğer resimleri görmek için tüm dosyalara erişime izin verin. İzin olmadan Image Toolbox bu resimleri gösteremez</string>
+    <string name="manage_storage_extra_types_sub">Android\'de resim olarak tanınmayan JXL, QOI ve diğer resimleri görmek için tüm dosyalara erişime izin verin. İzin olmadan Photo Utility Hub bu resimleri gösteremez</string>
     <string name="default_draw_color">Varsayılan Çizim Rengi</string>
     <string name="default_draw_path_mode">Varsayılan Çizim Yolu Modu</string>
     <string name="add_timestamp">Zaman Damgası Ekle</string>
@@ -1367,7 +1367,7 @@
     <string name="recently_used">Son Kullanılanlar</string>
     <string name="ci_channel">CI kanalı</string>
     <string name="group">Grup</string>
-    <string name="image_toolbox_in_telegram">Telegram\'da Image Toolbox 🎉</string>
+    <string name="image_toolbox_in_telegram">Telegram\'da Photo Utility Hub 🎉</string>
     <string name="image_toolbox_in_telegram_sub">İstediğiniz her şeyi tartışabileceğiniz sohbetimize katılın ve ayrıca betaları ve duyuruları yayınladığım CI kanalına göz atın</string>
     <string name="ci_channel_sub">Uygulamanın yeni sürümleri hakkında bildirim alın ve duyuruları okuyun</string>
     <string name="fit_description">Bir resmi verilen boyutlara sığdırın ve arka plana bulanıklık veya renk uygulayın</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Alfa Formatları İçin Arka Plan Rengi</string>
     <string name="background_color_for_alpha_formats_sub">Alfa desteğiyle her görüntü formatı için arka plan rengini ayarlama olanağı ekler; devre dışı bırakıldığında bu yalnızca alfa olmayanlar için geçerlidir</string>
     <string name="open_markup_project">Projeyi aç</string>
-    <string name="open_markup_project_sub">Önceden kaydedilmiş bir Image Toolbox projesini düzenlemeye devam edin</string>
-    <string name="markup_project_open_failed">Image Toolbox projesi açılamıyor</string>
-    <string name="markup_project_missing_data">Image Toolbox projesinde proje verileri eksik</string>
-    <string name="markup_project_corrupted">Image Toolbox projesi bozuk</string>
-    <string name="unsupported_markup_project_version">Desteklenmeyen Image Toolbox proje sürümü: %1$d</string>
+    <string name="open_markup_project_sub">Önceden kaydedilmiş bir Photo Utility Hub projesini düzenlemeye devam edin</string>
+    <string name="markup_project_open_failed">Photo Utility Hub projesi açılamıyor</string>
+    <string name="markup_project_missing_data">Photo Utility Hub projesinde proje verileri eksik</string>
+    <string name="markup_project_corrupted">Photo Utility Hub projesi bozuk</string>
+    <string name="unsupported_markup_project_version">Desteklenmeyen Photo Utility Hub proje sürümü: %1$d</string>
     <string name="save_markup_project">Projeyi kaydet</string>
     <string name="save_markup_project_sub">Katmanları, arka planı ve düzenleme geçmişini düzenlenebilir bir proje dosyasında saklayın</string>
     <string name="failed_to_open">Açılamadı</string>

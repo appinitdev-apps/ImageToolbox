@@ -50,9 +50,9 @@
     <uses-permission android:name="android.permission.PROJECT_MEDIA" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
-    <uses-permission
+    <!--<uses-permission
         android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
+        tools:ignore="ScopedStorage" />-->
 
     <application
         android:name=".app.presentation.components.ImageToolboxApplication"

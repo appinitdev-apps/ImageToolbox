@@ -830,7 +830,7 @@
     <string name="material_you_switch_sub">Používa prepínač Material You založený na View, tento vyzerá lepšie ako ostatné a má pekné animácie.</string>
     <string name="fast_gaussian_blur_3d">Rýchle Gaussovo rozostrenie 3D</string>
     <string name="cupertino_switch">Cupertino</string>
-    <string name="embedded_picker_sub">Používa vlastný nástroj Image Toolbox na výber obrázkov namiesto preddefinovaných v systéme</string>
+    <string name="embedded_picker_sub">Používa vlastný nástroj Photo Utility Hub na výber obrázkov namiesto preddefinovaných v systéme</string>
     <string name="no_permissions">Žiadne povolenia</string>
     <string name="request">Žiadosť</string>
     <string name="auto_paste_sub">Umožňuje aplikácii automaticky prilepiť údaje zo schránky, takže sa zobrazia na hlavnej obrazovke a budete ich môcť spracovať</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Obrázky na WEBP</string>
     <string name="select_webp_image_to_start">Začnite výberom obrázka WEBP</string>
     <string name="manage_storage_extra_types">Žiadny úplný prístup k súborom</string>
-    <string name="manage_storage_extra_types_sub">Povoľte prístup k všetkým súborom, aby ste mohli vidieť obrázky JXL, QOI a ďalšie obrázky, ktoré nie sú v systéme Android rozpoznané ako obrázky. Bez povolenia Image Toolbox nemôže zobraziť tieto obrázky</string>
+    <string name="manage_storage_extra_types_sub">Povoľte prístup k všetkým súborom, aby ste mohli vidieť obrázky JXL, QOI a ďalšie obrázky, ktoré nie sú v systéme Android rozpoznané ako obrázky. Bez povolenia Photo Utility Hub nemôže zobraziť tieto obrázky</string>
     <string name="default_draw_color">Predvolená farba kreslenia</string>
     <string name="default_draw_path_mode">Predvolený režim cesty kreslenia</string>
     <string name="add_timestamp">Pridať časovú pečiatku</string>
@@ -2195,11 +2195,11 @@
     <string name="background_color_for_alpha_formats">Farba pozadia pre formáty alfa</string>
     <string name="background_color_for_alpha_formats_sub">Pridáva možnosť nastaviť farbu pozadia pre každý formát obrázka s podporou alfa kanálov, keď je táto možnosť zakázaná, je k dispozícii iba pre iné než alfa verzie</string>
     <string name="open_markup_project">Otvorte projekt</string>
-    <string name="open_markup_project_sub">Pokračujte v úpravách predtým uloženého projektu Image Toolbox</string>
-    <string name="markup_project_open_failed">Nie je možné otvoriť projekt Image Toolbox</string>
-    <string name="markup_project_missing_data">Projektu Image Toolbox chýbajú projektové údaje</string>
-    <string name="markup_project_corrupted">Projekt Image Toolbox je poškodený</string>
-    <string name="unsupported_markup_project_version">Nepodporovaná verzia projektu Image Toolbox: %1$d</string>
+    <string name="open_markup_project_sub">Pokračujte v úpravách predtým uloženého projektu Photo Utility Hub</string>
+    <string name="markup_project_open_failed">Nie je možné otvoriť projekt Photo Utility Hub</string>
+    <string name="markup_project_missing_data">Projektu Photo Utility Hub chýbajú projektové údaje</string>
+    <string name="markup_project_corrupted">Projekt Photo Utility Hub je poškodený</string>
+    <string name="unsupported_markup_project_version">Nepodporovaná verzia projektu Photo Utility Hub: %1$d</string>
     <string name="save_markup_project">Uložiť projekt</string>
     <string name="save_markup_project_sub">Uložte vrstvy, pozadie a históriu úprav do upraviteľného súboru projektu</string>
     <string name="failed_to_open">Nepodarilo sa otvoriť</string>

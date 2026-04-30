@@ -19,17 +19,18 @@ package com.t8rin.imagetoolbox.benchmark
 
 import androidx.annotation.RequiresApi
 import androidx.benchmark.macro.junit4.BaselineProfileRule
+import androidx.test.filters.SdkSuppress
 import org.junit.Rule
 import org.junit.Test
 
-@RequiresApi(28)
+@SdkSuppress(minSdkVersion = 28)
 class BaselineProfileGenerator {
     @get:Rule
     val baselineProfileRule = BaselineProfileRule()
 
     @Test
     fun startup() = baselineProfileRule.collect(
-        packageName = "com.t8rin.imagetoolbox",
+        packageName ="ru.tech.imageresizershrinker",//"com.t8rin.imagetoolbox",
         includeInStartupProfile = true,
         profileBlock = {
             startActivityAndWait()

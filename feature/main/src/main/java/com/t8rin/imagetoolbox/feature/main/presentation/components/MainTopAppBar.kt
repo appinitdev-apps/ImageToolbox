@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 @file:Suppress("KotlinConstantConditions")
 
@@ -21,6 +8,7 @@ package com.t8rin.imagetoolbox.feature.main.presentation.components
 
 import android.net.Uri
 import androidx.compose.animation.AnimatedContent
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -61,6 +49,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
@@ -411,46 +400,37 @@ private fun MainTitle(
     val settingsState = LocalSettingsState.current
 
     LocalLayoutDirection.ProvidesValue(LayoutDirection.Ltr) {
-        val badgeText = remember {
-            "${Screen.FEATURES_COUNT} $AppVersionPreReleaseFlavored".trim()
-        }
 
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.marquee()
         ) {
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_foreground),
+                contentDescription = null,
+                modifier = Modifier.size(64.dp).padding(8.dp)
+            )
+
             AnimatedContent(settingsState.mainScreenTitle) { title ->
                 Text(title)
             }
-            if (BuildConfig.DEBUG) {
-                Icon(
-                    imageVector = Icons.TwoTone.BugReport,
-                    contentDescription = null,
-                    modifier = Modifier
-                        .offset(x = 2.dp)
-                        .size(
-                            with(LocalDensity.current) {
-                                LocalTextStyle.current.fontSize.toDp() * 1.05f
-                            }
-                        )
-                )
-            }
 
-            EnhancedBadge(
-                content = {
-                    Text(badgeText)
-                },
-                containerColor = MaterialTheme.colorScheme.tertiary,
-                contentColor = MaterialTheme.colorScheme.onTertiary,
-                modifier = Modifier
-                    .padding(horizontal = 2.dp)
-                    .padding(bottom = 12.dp)
-                    .scaleOnTap {
-                        onShowSnowfall()
-                    }
-            )
+
+//            EnhancedBadge(
+//                content = {
+//                    Text(badgeText)
+//                },
+//                containerColor = MaterialTheme.colorScheme.tertiary,
+//                contentColor = MaterialTheme.colorScheme.onTertiary,
+//                modifier = Modifier
+//                    .padding(horizontal = 2.dp)
+//                    .padding(bottom = 12.dp)
+//                    .scaleOnTap {
+//                        onShowSnowfall()
+//                    }
+//            )
             Spacer(Modifier.width(12.dp))
-            TopAppBarEmoji()
+//            TopAppBarEmoji()
         }
     }
 }

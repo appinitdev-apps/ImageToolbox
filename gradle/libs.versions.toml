@@ -3,11 +3,13 @@ androidMinSdk = "23"
 androidTargetSdk = "36"
 androidCompileSdk = "36"
 androidCompileSdkExtension = "19"
-
-versionName = "3.8.1-beta02"
-versionCode = "228"
-
+versionPackage="com.appinitdev.imagetools.pro"
+versionName = "1.2.5_Premium"
+versionCode = "5"
 jvmTarget = "21"
+
+
+
 
 imageToolboxLibs = "6.3.0"
 trickle = "1.6.1"
@@ -21,7 +23,7 @@ aire = "0.18.1"
 jxlCoder = "2.6.0"
 jxlCoderCoil = "2.6.0"
 jpegliCoder = "1.0.2"
-
+my-libs-version = "main-SNAPSHOT"
 tesseract = "4.9.0"
 material3 = "1.5.0-alpha18"
 composeVersion = "1.12.0-alpha01"
@@ -66,7 +68,7 @@ material = "1.14.0-beta01"
 jsoup = "1.22.2"
 androidliquidglass = "1.0.6"
 capsule = "2.1.3"
-squircle-shape = "5.2.1"
+squircle-shape = "5.2.0"
 
 mlkitDocumentScanner = "16.0.0"
 moshi = "1.15.2"
@@ -110,33 +112,33 @@ capsule = { module = "io.github.kyant0:capsule", version.ref = "capsule" }
 androidliquidglass = { module = "io.github.kyant0:backdrop", version.ref = "androidliquidglass" }
 androidx-fragment-compose = { module = "androidx.fragment:fragment-compose", version.ref = "fragmentCompose" }
 androidx-pdfviewer-fragment = { module = "androidx.pdf:pdf-viewer-fragment", version.ref = "pdfviewer" }
-evaluator = { module = "com.github.T8RIN:KotlinEvaluator", version.ref = "evaluator" }
+evaluator = { module = "com.github.appinitdev-apps:KotlinEvaluator", version.ref = "evaluator" }
 aboutlibraries-m3 = { module = "com.mikepenz:aboutlibraries-compose-m3", version.ref = "aboutlibraries" }
 moshi = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 moshi-adapters = { module = "com.squareup.moshi:moshi-adapters", version.ref = "moshi" }
 symbol-processing-api = { module = "com.google.devtools.ksp:symbol-processing-api", version.ref = "ksp" }
-trickle = { module = "com.github.T8RIN:Trickle", version.ref = "trickle" }
+trickle = { module = "com.github.appinitdev-apps:Trickle", version.ref = "trickle" }
 jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
 mlkit-document-scanner = { module = "com.google.android.gms:play-services-mlkit-document-scanner", version.ref = "mlkitDocumentScanner" }
-quickie-bundled = { module = "com.github.T8RIN.QuickieExtended:quickie-bundled", version.ref = "quickie" }
-quickie-foss = { module = "com.github.T8RIN.QuickieExtended:quickie-foss", version.ref = "quickie" }
+quickie-bundled = { module = "com.github.appinitdev-apps.QuickieExtended:quickie-bundled", version.ref = "quickie" }
+quickie-foss = { module = "com.github.appinitdev-apps.QuickieExtended:quickie-foss", version.ref = "quickie" }
 
-toolbox-gpuimage = { module = "com.github.T8RIN.ImageToolboxLibs:gpuimage", version.ref = "imageToolboxLibs" }
-toolbox-androidwm = { module = "com.github.T8RIN.ImageToolboxLibs:androidwm", version.ref = "imageToolboxLibs" }
-toolbox-gifConverter = { module = "com.github.T8RIN.ImageToolboxLibs:gif-converter", version.ref = "imageToolboxLibs" }
-toolbox-apng = { module = "com.github.T8RIN.ImageToolboxLibs:apng", version.ref = "imageToolboxLibs" }
-toolbox-jp2decoder = { module = "com.github.T8RIN.ImageToolboxLibs:jp2decoder", version.ref = "imageToolboxLibs" }
-toolbox-qoiCoder = { module = "com.github.T8RIN.ImageToolboxLibs:qoi-coder", version.ref = "imageToolboxLibs" }
-toolbox-awebp = { module = "com.github.T8RIN.ImageToolboxLibs:awebp", version.ref = "imageToolboxLibs" }
-toolbox-psd = { module = "com.github.T8RIN.ImageToolboxLibs:psd", version.ref = "imageToolboxLibs" }
-toolbox-djvuCoder = { module = "com.github.T8RIN.ImageToolboxLibs:djvu-coder", version.ref = "imageToolboxLibs" }
-toolbox-fastNoise = { module = "com.github.T8RIN.ImageToolboxLibs:fast-noise", version.ref = "imageToolboxLibs" }
-toolbox-histogram = { module = "com.github.T8RIN.ImageToolboxLibs:histogram", version.ref = "imageToolboxLibs" }
-toolbox-uCrop = { module = "com.github.T8RIN.ImageToolboxLibs:ucrop", version.ref = "imageToolboxLibs" }
-toolbox-exif = { module = "com.github.T8RIN.ImageToolboxLibs:exif", version.ref = "imageToolboxLibs" }
-toolbox-jhlabs = { module = "com.github.T8RIN.ImageToolboxLibs:jhlabs", version.ref = "imageToolboxLibs" }
+toolbox-gpuimage = { module = "com.github.appinitdev-apps.ImageToolboxLibs:gpuimage", version.ref = "imageToolboxLibs" }
+toolbox-androidwm = { module = "com.github.appinitdev-apps.ImageToolboxLibs:androidwm", version.ref = "imageToolboxLibs" }
+toolbox-gifConverter = { module = "com.github.appinitdev-apps.ImageToolboxLibs:gif-converter", version.ref = "imageToolboxLibs" }
+toolbox-apng = { module = "com.github.appinitdev-apps.ImageToolboxLibs:apng", version.ref = "imageToolboxLibs" }
+toolbox-jp2decoder = { module = "com.github.appinitdev-apps.ImageToolboxLibs:jp2decoder", version.ref = "imageToolboxLibs" }
+toolbox-qoiCoder = { module = "com.github.appinitdev-apps.ImageToolboxLibs:qoi-coder", version.ref = "imageToolboxLibs" }
+toolbox-awebp = { module = "com.github.appinitdev-apps.ImageToolboxLibs:awebp", version.ref = "imageToolboxLibs" }
+toolbox-psd = { module = "com.github.appinitdev-apps.ImageToolboxLibs:psd", version.ref = "imageToolboxLibs" }
+toolbox-djvuCoder = { module = "com.github.appinitdev-apps.ImageToolboxLibs:djvu-coder", version.ref = "imageToolboxLibs" }
+toolbox-fastNoise = { module = "com.github.appinitdev-apps.ImageToolboxLibs:fast-noise", version.ref = "imageToolboxLibs" }
+toolbox-histogram = { module = "com.github.appinitdev-apps.ImageToolboxLibs:histogram", version.ref = "imageToolboxLibs" }
+toolbox-uCrop = { module = "com.github.appinitdev-apps.ImageToolboxLibs:ucrop", version.ref = "imageToolboxLibs" }
+toolbox-exif = { module = "com.github.appinitdev-apps.ImageToolboxLibs:exif", version.ref = "imageToolboxLibs" }
+toolbox-jhlabs = { module = "com.github.appinitdev-apps.ImageToolboxLibs:jhlabs", version.ref = "imageToolboxLibs" }
 
-tiffdecoder = { module = "com.github.T8RIN:TiffDecoder", version.ref = "tiffdecoder" }
+tiffdecoder = { module = "com.github.appinitdev-apps:TiffDecoder", version.ref = "tiffdecoder" }
 aire = { module = "com.github.awxkee:aire", version.ref = "aire" }
 jpegli-coder = { module = "com.github.awxkee:jpegli-coder", version.ref = "jpegliCoder" }
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
@@ -148,8 +150,8 @@ avif-coder-coil = { module = "io.github.awxkee:avif-coder-coil", version.ref = "
 shadowGadgets = { module = "com.github.zed-alpha.shadow-gadgets:compose", version.ref = "shadowGadgets" }
 datastore-preferences-android = { module = "androidx.datastore:datastore-preferences-android", version.ref = "dataStore" }
 datastore-core-android = { module = "androidx.datastore:datastore-core-android", version.ref = "dataStore" }
-fadingEdges = { module = "com.github.t8rin:ComposeFadingEdges", version.ref = "fadingEdges" }
-konfetti-compose = { module = "nl.dionsegijn:konfetti-compose", version.ref = "konfettiCompose" }
+fadingEdges = { module = "com.github.appinitdev-apps:ComposeFadingEdges", version.ref = "fadingEdges" }
+#konfetti-compose = { module = "nl.dionsegijn:konfetti-compose", version.ref = "konfettiCompose" }
 decompose = { module = "com.arkivanov.decompose:decompose", version.ref = "decompose" }
 decomposeExtensions = { module = "com.arkivanov.decompose:extensions-compose", version.ref = "decompose" }
 shadowsPlus = { module = "com.github.GIGAMOLE:ComposeShadowsPlus", version.ref = "shadowsPlus" }
@@ -211,9 +213,14 @@ compose-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.r
 
 desugaring = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugaring" }
 
+
+
+
+
 [plugins]
 image-toolbox-library = { id = "image.toolbox.library", version = "unspecified" }
 image-toolbox-hilt = { id = "image.toolbox.hilt", version = "unspecified" }
 image-toolbox-feature = { id = "image.toolbox.feature", version = "unspecified" }
 image-toolbox-compose = { id = "image.toolbox.compose", version = "unspecified" }
 image-toolbox-application = { id = "image.toolbox.application", version = "unspecified" }
+

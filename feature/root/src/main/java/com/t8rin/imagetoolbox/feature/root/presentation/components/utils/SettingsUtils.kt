@@ -36,19 +36,19 @@ internal fun RootComponent.uiSettingsState(): UiSettingsState = settingsState.to
     randomEmojiKey = childStack.randomEmojiKey()
 )
 
-@Composable
-internal fun HandleLookForUpdates(component: RootComponent) {
-    if (component.settingsState.shouldTryGetUpdate) {
-        LaunchedEffect(Unit) {
-            delay(500)
-            component.tryGetUpdate()
-        }
-    }
-}
+//@Composable
+//internal fun HandleLookForUpdates(component: RootComponent) {
+//    if (component.settingsState.shouldTryGetUpdate) {
+//        LaunchedEffect(Unit) {
+//            delay(500)
+//            component.tryGetUpdate()
+//        }
+//    }
+//}
 
-
-private val SettingsState.shouldTryGetUpdate: Boolean
-    get() = appOpenCount >= 2 && showUpdateDialogOnStartup
+//
+//private val SettingsState.shouldTryGetUpdate: Boolean
+//    get() = appOpenCount >= 2 && showUpdateDialogOnStartup
 
 @Composable
 private fun Value<ChildStack<Screen, *>>.randomEmojiKey(): Any {

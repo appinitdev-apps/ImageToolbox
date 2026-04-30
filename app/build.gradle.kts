@@ -31,10 +31,9 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         //Maintained for compatibility with old version
-        applicationId = "ru.tech.imageresizershrinker"
-
+        applicationId = libs.versions.versionPackage.get()
         versionCode = libs.versions.versionCode.get().toIntOrNull()
-        versionName = System.getenv("VERSION_NAME") ?: libs.versions.versionName.get()
+        versionName = libs.versions.versionName.get()
 
         ndk {
             abiFilters.clear()
@@ -64,8 +63,8 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix = ".debug"
-            resValue("string", "app_launcher_name", "Image Toolbox DEBUG")
-            resValue("string", "file_provider", "com.t8rin.imagetoolbox.fileprovider.debug")
+            //resValue("string", "app_launcher_name", "Image Toolbox DEBUG")
+            //resValue("string", "file_provider", "com.t8rin.imagetoolbox.fileprovider.debug")
         }
         release {
             isMinifyEnabled = true
@@ -135,7 +134,7 @@ android {
 }
 
 base {
-    archivesName = "image-toolbox-${android.defaultConfig.versionName}"
+    archivesName = "AppInitDev-${android.defaultConfig.versionName}"
 }
 
 aboutLibraries {

@@ -882,7 +882,7 @@
     <string name="compression_type">Тип стиснення</string>
     <string name="speed_sub">Контролює швидкість декодування результуючого зображення, це має допомогти швидше відкрити результуюче зображення, значення %1$s означає найповільніше декодування, тоді як %2$s – найшвидше, цей параметр може збільшити розмір вихідного зображення</string>
     <string name="embedded_picker">Вбудований засіб вибору</string>
-    <string name="embedded_picker_sub">Вибір зображень у Image Toolbox</string>
+    <string name="embedded_picker_sub">Вибір зображень у Photo Utility Hub</string>
     <string name="pick_multiple_media">Виберіть кілька медіа</string>
     <string name="pick_single_media">Виберіть один медіафайл</string>
     <string name="pick">Вибрати</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Зображення до WEBP</string>
     <string name="select_webp_image_to_start">Виберіть зображення WEBP для початку</string>
     <string name="manage_storage_extra_types">Немає повного доступу до файлів</string>
-    <string name="manage_storage_extra_types_sub">Надайте доступ до всіх файлів, щоб переглядати JXL, QOI та інші зображення, які не розпізнаються як зображення на Android. Без дозволу Image Toolbox не зможе показати ці зображення.</string>
+    <string name="manage_storage_extra_types_sub">Надайте доступ до всіх файлів, щоб переглядати JXL, QOI та інші зображення, які не розпізнаються як зображення на Android. Без дозволу Photo Utility Hub не зможе показати ці зображення.</string>
     <string name="default_draw_color">Колір малювання за замовчуванням</string>
     <string name="default_draw_path_mode">Режим малювання контуру за замовчуванням</string>
     <string name="add_timestamp">Додати позначку часу</string>
@@ -2195,11 +2195,11 @@
     <string name="background_color_for_alpha_formats">Колір фону для альфа-форматів</string>
     <string name="background_color_for_alpha_formats_sub">Додає можливість установлювати фоновий колір для кожного формату зображення з підтримкою альфа-версії, якщо вимкнено, це доступно лише для неальфа-версії</string>
     <string name="open_markup_project">Відкритий проект</string>
-    <string name="open_markup_project_sub">Продовжити редагування раніше збереженого проекту Image Toolbox</string>
-    <string name="markup_project_open_failed">Неможливо відкрити проект Image Toolbox</string>
-    <string name="markup_project_missing_data">У проекті Image Toolbox відсутні дані проекту</string>
-    <string name="markup_project_corrupted">Проект Image Toolbox пошкоджено</string>
-    <string name="unsupported_markup_project_version">Непідтримувана версія проекту Image Toolbox: %1$d</string>
+    <string name="open_markup_project_sub">Продовжити редагування раніше збереженого проекту Photo Utility Hub</string>
+    <string name="markup_project_open_failed">Неможливо відкрити проект Photo Utility Hub</string>
+    <string name="markup_project_missing_data">У проекті Photo Utility Hub відсутні дані проекту</string>
+    <string name="markup_project_corrupted">Проект Photo Utility Hub пошкоджено</string>
+    <string name="unsupported_markup_project_version">Непідтримувана версія проекту Photo Utility Hub: %1$d</string>
     <string name="save_markup_project">Зберегти проект</string>
     <string name="save_markup_project_sub">Зберігайте шари, фон і історію редагування у файлі проекту, який можна редагувати</string>
     <string name="failed_to_open">Не вдалося відкрити</string>

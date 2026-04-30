@@ -69,7 +69,7 @@
     <string name="allow_betas">Leisti beta versijų</string>
     <string name="ci_channel">CI kanalas</string>
     <string name="group">Grupė</string>
-    <string name="image_toolbox_in_telegram">„Image Toolbox“ programėlėje „Telegram“ 🎉</string>
+    <string name="image_toolbox_in_telegram">„Photo Utility Hub“ programėlėje „Telegram“ 🎉</string>
     <string name="ci_channel_sub">Gaukite pranešimų apie naujas programėlės versijas ir skaitykite skelbimus.</string>
     <string name="crash_subtitle">Galite susisiekti su manimi naudojant žemiau nurodytas parinktis ir aš bandysiu surasti sprendimą.\n\n(Nepamirškite pridėti žurnalus).</string>
     <string name="explicit">Aiškus</string>
@@ -1369,7 +1369,7 @@
     <string name="webp_type_to_webp">Vaizdai į WEBP</string>
     <string name="select_webp_image_to_start">Norėdami pradėti, pasirinkite WEBP vaizdą</string>
     <string name="manage_storage_extra_types">Nėra visiškos prieigos prie failų</string>
-    <string name="manage_storage_extra_types_sub">Leiskite visiems failams pasiekti JXL, QOI ir kitus vaizdus, ​​kurie „Android“ neatpažįstami kaip vaizdai. Be leidimo „Image Toolbox“ negali rodyti tų vaizdų</string>
+    <string name="manage_storage_extra_types_sub">Leiskite visiems failams pasiekti JXL, QOI ir kitus vaizdus, ​​kurie „Android“ neatpažįstami kaip vaizdai. Be leidimo „Photo Utility Hub“ negali rodyti tų vaizdų</string>
     <string name="default_draw_color">Numatytoji piešimo spalva</string>
     <string name="default_draw_path_mode">Numatytasis piešimo kelio režimas</string>
     <string name="add_timestamp">Pridėti laiko žymą</string>
@@ -2197,10 +2197,10 @@
     <string name="background_color_for_alpha_formats_sub">Pridedama galimybė nustatyti fono spalvą kiekvienam vaizdo formatui su alfa palaikymu, kai išjungta, tai galima tik ne alfa formatams</string>
     <string name="open_markup_project">Atviras projektas</string>
     <string name="open_markup_project_sub">Tęskite anksčiau išsaugoto vaizdo įrankių dėžės projekto redagavimą</string>
-    <string name="markup_project_open_failed">Nepavyko atidaryti „Image Toolbox“ projekto</string>
+    <string name="markup_project_open_failed">Nepavyko atidaryti „Photo Utility Hub“ projekto</string>
     <string name="markup_project_missing_data">Vaizdo įrankių dėžutės projekte trūksta projekto duomenų</string>
     <string name="markup_project_corrupted">Vaizdo įrankių dėžutės projektas sugadintas</string>
-    <string name="unsupported_markup_project_version">Nepalaikoma „Image Toolbox“ projekto versija: %1$d</string>
+    <string name="unsupported_markup_project_version">Nepalaikoma „Photo Utility Hub“ projekto versija: %1$d</string>
     <string name="save_markup_project">Išsaugoti projektą</string>
     <string name="save_markup_project_sub">Saugokite sluoksnius, foną ir redaguokite istoriją redaguojamame projekto faile</string>
     <string name="failed_to_open">Nepavyko atidaryti</string>

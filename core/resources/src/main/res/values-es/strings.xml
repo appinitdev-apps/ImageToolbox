@@ -1044,7 +1044,7 @@
     <string name="default_line_width">Anchura de línea predeterminada</string>
     <string name="show_settings_in_landscape">Mostrar ajustes en vista horizontal</string>
     <string name="embedded_picker">Selector integrado</string>
-    <string name="embedded_picker_sub">Selector de imágenes de Image Toolbox</string>
+    <string name="embedded_picker_sub">Selector de imágenes de Photo Utility Hub</string>
     <string name="no_permissions">Sin permisos</string>
     <string name="request">Solicitar</string>
     <string name="auto_paste">Pegado automático</string>
@@ -1325,7 +1325,7 @@
     <string name="golden_forest">Bosque Dorado</string>
     <string name="webp_tools_sub">Convierte imágenes a imágenes WEBP animadas o extrae frames de un archivo WEBP animado dado</string>
     <string name="ico_size_warning">Los archivos ICO sólo pueden ser guardados con tamaño máximo de 256 x 256</string>
-    <string name="manage_storage_extra_types_sub">Permite acceso a todos los archivos para ver JXL, QOI y otras imágenes que no son reconocidas como imágenes en Android. Sin los permisos, Image Toolbox no podrá mostrar esas imágenes</string>
+    <string name="manage_storage_extra_types_sub">Permite acceso a todos los archivos para ver JXL, QOI y otras imágenes que no son reconocidas como imágenes en Android. Sin los permisos, Photo Utility Hub no podrá mostrar esas imágenes</string>
     <string name="formatted_timestamp">Marca de tiempo con formato</string>
     <string name="formatted_timestamp_sub">Habilita el formateo de marcas de tiempo (Timestamps) en el nombre del archivo de salida, en lugar de milisegundos básicos</string>
     <string name="auto">Auto</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Color de fondo para formatos alfa</string>
     <string name="background_color_for_alpha_formats_sub">Agrega la capacidad de establecer el color de fondo para cada formato de imagen con soporte alfa; cuando está deshabilitado, está disponible solo para los que no son alfa.</string>
     <string name="open_markup_project">Abrir proyecto</string>
-    <string name="open_markup_project_sub">Continuar editando un proyecto de Image Toolbox previamente guardado</string>
-    <string name="markup_project_open_failed">No se puede abrir el proyecto de Image Toolbox</string>
-    <string name="markup_project_missing_data">Al proyecto Image Toolbox le faltan datos del proyecto</string>
-    <string name="markup_project_corrupted">El proyecto Image Toolbox está dañado</string>
-    <string name="unsupported_markup_project_version">Versión del proyecto Image Toolbox no compatible: %1$d</string>
+    <string name="open_markup_project_sub">Continuar editando un proyecto de Photo Utility Hub previamente guardado</string>
+    <string name="markup_project_open_failed">No se puede abrir el proyecto de Photo Utility Hub</string>
+    <string name="markup_project_missing_data">Al proyecto Photo Utility Hub le faltan datos del proyecto</string>
+    <string name="markup_project_corrupted">El proyecto Photo Utility Hub está dañado</string>
+    <string name="unsupported_markup_project_version">Versión del proyecto Photo Utility Hub no compatible: %1$d</string>
     <string name="save_markup_project">Guardar proyecto</string>
     <string name="save_markup_project_sub">Almacene capas, fondos y edite el historial en un archivo de proyecto editable</string>
     <string name="failed_to_open">No se pudo abrir</string>

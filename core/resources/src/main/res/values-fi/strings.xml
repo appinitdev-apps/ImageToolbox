@@ -865,7 +865,7 @@
     <string name="header_today">Tänään</string>
     <string name="header_yesterday">Eilen</string>
     <string name="embedded_picker">Embedded Picker</string>
-    <string name="embedded_picker_sub">Image Toolboxin kuvanvalitsin</string>
+    <string name="embedded_picker_sub">Photo Utility Hubin kuvanvalitsin</string>
     <string name="no_permissions">Ei käyttöoikeuksia</string>
     <string name="request">Pyytää</string>
     <string name="pick_multiple_media">Valitse useita mediatiedostoja</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Kuvat WEBP:hen</string>
     <string name="select_webp_image_to_start">Aloita valitsemalla WEBP-kuva</string>
     <string name="manage_storage_extra_types">Ei täydellistä pääsyä tiedostoihin</string>
-    <string name="manage_storage_extra_types_sub">Salli kaikkien tiedostojen käyttöoikeus nähdä JXL, QOI ja muut kuvat, joita ei tunnisteta kuviksi Androidissa. Ilman lupaa Image Toolbox ei voi näyttää näitä kuvia</string>
+    <string name="manage_storage_extra_types_sub">Salli kaikkien tiedostojen käyttöoikeus nähdä JXL, QOI ja muut kuvat, joita ei tunnisteta kuviksi Androidissa. Ilman lupaa Photo Utility Hub ei voi näyttää näitä kuvia</string>
     <string name="default_draw_color">Piirustuksen oletusväri</string>
     <string name="default_draw_path_mode">Oletuspiirtopolkutila</string>
     <string name="add_timestamp">Lisää aikaleima</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Taustaväri Alfa-formaateille</string>
     <string name="background_color_for_alpha_formats_sub">Lisää mahdollisuuden asettaa taustavärin jokaiselle kuvamuodolle alfa-tuella, kun tämä ei ole käytössä, tämä on käytettävissä vain muille kuin alfa-muodoille</string>
     <string name="open_markup_project">Avoin projekti</string>
-    <string name="open_markup_project_sub">Jatka aiemmin tallennetun Image Toolbox -projektin muokkaamista</string>
-    <string name="markup_project_open_failed">Image Toolbox -projektia ei voi avata</string>
-    <string name="markup_project_missing_data">Image Toolbox -projektista puuttuu projektitiedot</string>
-    <string name="markup_project_corrupted">Image Toolbox -projekti on vioittunut</string>
-    <string name="unsupported_markup_project_version">Ei tuettu Image Toolbox -projektin versio: %1$d</string>
+    <string name="open_markup_project_sub">Jatka aiemmin tallennetun Photo Utility Hub -projektin muokkaamista</string>
+    <string name="markup_project_open_failed">Photo Utility Hub -projektia ei voi avata</string>
+    <string name="markup_project_missing_data">Photo Utility Hub -projektista puuttuu projektitiedot</string>
+    <string name="markup_project_corrupted">Photo Utility Hub -projekti on vioittunut</string>
+    <string name="unsupported_markup_project_version">Ei tuettu Photo Utility Hub -projektin versio: %1$d</string>
     <string name="save_markup_project">Tallenna projekti</string>
     <string name="save_markup_project_sub">Tallenna tasot, tausta ja muokkaushistoria muokattavaan projektitiedostoon</string>
     <string name="failed_to_open">Avaaminen epäonnistui</string>

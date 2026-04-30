@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 package com.t8rin.imagetoolbox.core.settings.domain.model
 
@@ -152,7 +139,7 @@ data class SettingsState(
                 selectedEmoji = 0,
                 picturePickerModeInt = 0,
                 clearCacheOnLaunch = false,
-                showUpdateDialogOnStartup = !Flavor.isFoss(),
+                showUpdateDialogOnStartup = false,
                 groupOptionsByTypes = true,
                 screenList = emptyList(),
                 colorTupleList = null,
@@ -163,9 +150,9 @@ data class SettingsState(
                 addOriginalFilename = false,
                 font = DomainFontFamily.System,
                 fontScale = 1f,
-                allowCollectCrashlytics = true,
-                allowCollectAnalytics = true,
-                allowBetas = !Flavor.isFoss(),
+                allowCollectCrashlytics = false,
+                allowCollectAnalytics = false,
+                allowBetas = false,
                 drawContainerShadows = true,
                 drawButtonShadows = true,
                 drawSwitchShadows = true,
@@ -199,8 +186,8 @@ data class SettingsState(
                 confettiHarmonizationLevel = 0.5f,
                 skipImagePicking = false,
                 generatePreviews = true,
-                showSettingsInLandscape = true,
-                useFullscreenSettings = false,
+                showSettingsInLandscape = false,//true
+                useFullscreenSettings = true,//false
                 switchType = SwitchType.Compose,
                 defaultDrawLineWidth = 20f,
                 oneTimeSaveLocations = emptyList(),
@@ -220,7 +207,7 @@ data class SettingsState(
                 isSystemBarsVisibleBySwipe = true,
                 isCompactSelectorsLayout = false,
                 mainScreenTitle = "",
-                sliderType = SliderType.Fancy,
+                sliderType = SliderType.MaterialYou,
                 isCenterAlignDialogButtons = false,
                 fastSettingsSide = FastSettingsSide.CenterEnd,
                 settingGroupsInitialVisibility = emptyMap(),
@@ -242,7 +229,7 @@ data class SettingsState(
                 shapesType = ShapeType.Rounded(),
                 filenamePattern = null,
                 filenameBehavior = FilenameBehavior.None(),
-                flingType = FlingType.DEFAULT,
+                flingType = FlingType.SMOOTH,//DEFAULT,
                 hiddenForShareScreens = emptyList(),
                 keepDateTime = false,
                 enableBackgroundColorForAlphaFormats = false,

@@ -37,7 +37,6 @@ import com.t8rin.imagetoolbox.core.ui.widget.image.Picture
 import com.t8rin.imagetoolbox.core.ui.widget.modifier.ShapeDefaults
 import com.t8rin.imagetoolbox.core.ui.widget.modifier.container
 import com.t8rin.imagetoolbox.core.ui.widget.preferences.PreferenceRow
-import com.t8rin.imagetoolbox.feature.settings.presentation.components.additional.AuthorLinksSheet
 
 @Composable
 fun AuthorSettingItem(
@@ -45,30 +44,30 @@ fun AuthorSettingItem(
 ) {
     var showAuthorSheet by rememberSaveable { mutableStateOf(false) }
 
-    PreferenceRow(
-        modifier = Modifier.padding(horizontal = 8.dp),
-        color = MaterialTheme.colorScheme.secondaryContainer,
-        title = stringResource(R.string.app_developer),
-        subtitle = stringResource(R.string.app_developer_nick),
-        shape = shape,
-        startIcon = Icons.Outlined.Forum,
-        endContent = {
-            Picture(
-                model = painterResource(id = R.drawable.avatar),
-                modifier = Modifier
-                    .padding(end = 8.dp)
-                    .size(64.dp)
-                    .container(
-                        shape = MaterialStarShape,
-                        resultPadding = 0.dp
-                    ),
-                contentDescription = null
-            )
-        },
-        onClick = { showAuthorSheet = true }
-    )
-    AuthorLinksSheet(
-        visible = showAuthorSheet,
-        onDismiss = { showAuthorSheet = false }
-    )
+//    PreferenceRow(
+//        modifier = Modifier.padding(horizontal = 8.dp),
+//        color = MaterialTheme.colorScheme.secondaryContainer,
+//        title = stringResource(R.string.app_developer),
+//        subtitle = stringResource(R.string.app_developer_nick),
+//        shape = shape,
+//        startIcon = Icons.Outlined.Forum,
+//        endContent = {
+//            Picture(
+//                model = painterResource(id = R.drawable.avatar),
+//                modifier = Modifier
+//                    .padding(end = 8.dp)
+//                    .size(64.dp)
+//                    .container(
+//                        shape = MaterialStarShape,
+//                        resultPadding = 0.dp
+//                    ),
+//                contentDescription = null
+//            )
+//        },
+//        onClick = { showAuthorSheet = true }
+//    )
+//    AuthorLinksSheet(
+//        visible = showAuthorSheet,
+//        onDismiss = { showAuthorSheet = false }
+//    )
 }

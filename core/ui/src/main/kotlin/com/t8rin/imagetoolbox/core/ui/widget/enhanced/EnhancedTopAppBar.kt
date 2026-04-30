@@ -51,7 +51,20 @@ fun EnhancedTopAppBar(
     type: EnhancedTopAppBarType = EnhancedTopAppBarType.Normal,
     drawHorizontalStroke: Boolean = true
 ) {
-    AnimatedContent(
+    MediumTopAppBar(
+        title = title,
+        modifier = modifier.drawHorizontalStroke(
+            enabled = drawHorizontalStroke
+        ),
+        navigationIcon = navigationIcon,
+        actions = actions,
+        windowInsets = windowInsets,
+        colors = colors,
+        scrollBehavior = scrollBehavior
+    )
+
+
+    /*AnimatedContent(
         targetState = type,
         transitionSpec = { fadeIn() togetherWith fadeOut() }
     ) {
@@ -112,7 +125,7 @@ fun EnhancedTopAppBar(
                 )
             }
         }
-    }
+    }*/
 }
 
 enum class EnhancedTopAppBarType {

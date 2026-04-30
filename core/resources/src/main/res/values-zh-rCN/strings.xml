@@ -868,7 +868,7 @@
     <string name="header_today">今日</string>
     <string name="header_yesterday">昨日</string>
     <string name="embedded_picker">嵌入式选取器</string>
-    <string name="embedded_picker_sub">Image Toolbox的图片选择器</string>
+    <string name="embedded_picker_sub">Photo Utility Hub的图片选择器</string>
     <string name="no_permissions">无权限</string>
     <string name="request">请求</string>
     <string name="show_settings_in_landscape">横向显示设置</string>
@@ -1358,7 +1358,7 @@
     <string name="add_timestamp">添加时间戳</string>
     <string name="formatted_timestamp_sub">在输出文件名中启用时间戳格式，代替基本的毫秒数</string>
     <string name="manage_storage_extra_types">无法完全访问文件</string>
-    <string name="manage_storage_extra_types_sub">允许所有文件访问以查看JXL、QOI和其他在Android上未被识别为图片的图片。如果没有此权限，Image Toolbox将无法显示这些图片</string>
+    <string name="manage_storage_extra_types_sub">允许所有文件访问以查看JXL、QOI和其他在Android上未被识别为图片的图片。如果没有此权限，Photo Utility Hub将无法显示这些图片</string>
     <string name="add_timestamp_sub">启用在输出文件名中添加时间戳</string>
     <string name="formatted_timestamp">格式化时间戳</string>
     <string name="enable_timestamps_to_format_them">启用时间戳以选择其格式</string>
@@ -1368,7 +1368,7 @@
     <string name="one_time_save_location">单次保存位置</string>
     <string name="group">Telegram群组</string>
     <string name="one_time_save_location_sub">查看和编辑单次保存位置，您可以在大多数选项中长按保存按钮来使用这些位置</string>
-    <string name="image_toolbox_in_telegram">Image Toolbox 在 Telegram 🎉</string>
+    <string name="image_toolbox_in_telegram">Photo Utility Hub 在 Telegram 🎉</string>
     <string name="image_toolbox_in_telegram_sub">加入我们的聊天室，在这里你可以讨论任何你想讨论的问题，还可以查看 CI 频道，我将在这里发布测试版和公告。</string>
     <string name="fit_description">根据给定尺寸调整图片，并为背景添加模糊效果或颜色</string>
     <string name="tools_arrangement">工具排列</string>
@@ -2192,11 +2192,11 @@
     <string name="background_color_for_alpha_formats">Alpha 格式的背景颜色</string>
     <string name="background_color_for_alpha_formats_sub">增加了为每种具有 Alpha 支持的图像格式设置背景颜色的功能，禁用后，此功能仅适用于非 Alpha 格式</string>
     <string name="open_markup_project">打开项目</string>
-    <string name="open_markup_project_sub">继续编辑之前保存的 Image Toolbox 项目</string>
-    <string name="markup_project_open_failed">无法打开 Image Toolbox 项目</string>
-    <string name="markup_project_missing_data">Image Toolbox 项目缺少项目数据</string>
-    <string name="markup_project_corrupted">Image Toolbox 项目已损坏</string>
-    <string name="unsupported_markup_project_version">不受支持的 Image Toolbox 项目版本：%1$d</string>
+    <string name="open_markup_project_sub">继续编辑之前保存的 Photo Utility Hub 项目</string>
+    <string name="markup_project_open_failed">无法打开 Photo Utility Hub 项目</string>
+    <string name="markup_project_missing_data">Photo Utility Hub 项目缺少项目数据</string>
+    <string name="markup_project_corrupted">Photo Utility Hub 项目已损坏</string>
+    <string name="unsupported_markup_project_version">不受支持的 Photo Utility Hub 项目版本：%1$d</string>
     <string name="save_markup_project">保存项目</string>
     <string name="save_markup_project_sub">将图层、背景和编辑历史记录存储在可编辑的项目文件中</string>
     <string name="failed_to_open">打开失败</string>

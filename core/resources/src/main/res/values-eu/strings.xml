@@ -865,7 +865,7 @@
     <string name="header_today">Gaur</string>
     <string name="header_yesterday">Atzo</string>
     <string name="embedded_picker">Kapsulatutako hautatzailea</string>
-    <string name="embedded_picker_sub">Image Toolbox-en irudi-hautatzailea</string>
+    <string name="embedded_picker_sub">Photo Utility Hub-en irudi-hautatzailea</string>
     <string name="no_permissions">Ez dago baimenik</string>
     <string name="request">Eskaera</string>
     <string name="pick_multiple_media">Aukeratu hainbat euskarri</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Irudiak WEBPra</string>
     <string name="select_webp_image_to_start">Hautatu WEBP irudia hasteko</string>
     <string name="manage_storage_extra_types">Ez dago fitxategietarako sarbide osorik</string>
-    <string name="manage_storage_extra_types_sub">Baimendu fitxategi guztiak sartzeko JXL, QOI eta Android-en irudi gisa ezagutzen ez diren beste irudi batzuk ikusteko. Baimenik gabe Image Toolbox ezin ditu irudi horiek erakutsi</string>
+    <string name="manage_storage_extra_types_sub">Baimendu fitxategi guztiak sartzeko JXL, QOI eta Android-en irudi gisa ezagutzen ez diren beste irudi batzuk ikusteko. Baimenik gabe Photo Utility Hub ezin ditu irudi horiek erakutsi</string>
     <string name="default_draw_color">Marraztu kolore lehenetsia</string>
     <string name="default_draw_path_mode">Marrazte-bide modu lehenetsia</string>
     <string name="add_timestamp">Gehitu denbora-zigilua</string>
@@ -2193,11 +2193,11 @@
     <string name="keep_date_time">Mantendu Data Ordua</string>
     <string name="keep_date_time_sub">Gorde beti data eta orduarekin lotutako exif etiketak, mantendu exif aukeratik independenteki funtzionatzen du</string>
     <string name="open_markup_project">Proiektu irekia</string>
-    <string name="open_markup_project_sub">Jarraitu aurrez gordetako Image Toolbox proiektu bat editatzen</string>
-    <string name="markup_project_open_failed">Ezin da Image Toolbox proiektua ireki</string>
-    <string name="markup_project_missing_data">Image Toolbox proiektuari proiektuaren datuak falta zaizkio</string>
-    <string name="markup_project_corrupted">Image Toolbox proiektua hondatuta dago</string>
-    <string name="unsupported_markup_project_version">Onartzen ez den Image Toolbox proiektuaren bertsioa: %1$d</string>
+    <string name="open_markup_project_sub">Jarraitu aurrez gordetako Photo Utility Hub proiektu bat editatzen</string>
+    <string name="markup_project_open_failed">Ezin da Photo Utility Hub proiektua ireki</string>
+    <string name="markup_project_missing_data">Photo Utility Hub proiektuari proiektuaren datuak falta zaizkio</string>
+    <string name="markup_project_corrupted">Photo Utility Hub proiektua hondatuta dago</string>
+    <string name="unsupported_markup_project_version">Onartzen ez den Photo Utility Hub proiektuaren bertsioa: %1$d</string>
     <string name="save_markup_project">Gorde proiektua</string>
     <string name="save_markup_project_sub">Gorde geruzak, atzeko planoa eta editatu historia proiektu editagarri batean</string>
     <string name="failed_to_open">Ezin izan da ireki</string>

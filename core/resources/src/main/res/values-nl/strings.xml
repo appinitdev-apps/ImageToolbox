@@ -900,7 +900,7 @@
     <string name="header_today">Vandaag</string>
     <string name="header_yesterday">Gisteren</string>
     <string name="embedded_picker">Ingesloten kiezer</string>
-    <string name="embedded_picker_sub">Gebruik Image Toolbox\'s eigen afbeeldingenkiezer in plaats van de systeemkiezer</string>
+    <string name="embedded_picker_sub">Gebruik Photo Utility Hub\'s eigen afbeeldingenkiezer in plaats van de systeemkiezer</string>
     <string name="no_permissions">Geen rechten</string>
     <string name="request">Verzoek</string>
     <string name="legacy">Verouderd</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Achtergrondkleur voor alfaformaten</string>
     <string name="background_color_for_alpha_formats_sub">Voegt de mogelijkheid toe om de achtergrondkleur in te stellen voor elk afbeeldingsformaat met alfa-ondersteuning, indien uitgeschakeld is dit alleen beschikbaar voor niet-alfa-formaten</string>
     <string name="open_markup_project">Project openen</string>
-    <string name="open_markup_project_sub">Ga door met het bewerken van een eerder opgeslagen Image Toolbox-project</string>
-    <string name="markup_project_open_failed">Kan het Image Toolbox-project niet openen</string>
-    <string name="markup_project_missing_data">Bij het Image Toolbox-project ontbreken projectgegevens</string>
-    <string name="markup_project_corrupted">Het Image Toolbox-project is beschadigd</string>
-    <string name="unsupported_markup_project_version">Niet-ondersteunde Image Toolbox-projectversie: %1$d</string>
+    <string name="open_markup_project_sub">Ga door met het bewerken van een eerder opgeslagen Photo Utility Hub-project</string>
+    <string name="markup_project_open_failed">Kan het Photo Utility Hub-project niet openen</string>
+    <string name="markup_project_missing_data">Bij het Photo Utility Hub-project ontbreken projectgegevens</string>
+    <string name="markup_project_corrupted">Het Photo Utility Hub-project is beschadigd</string>
+    <string name="unsupported_markup_project_version">Niet-ondersteunde Photo Utility Hub-projectversie: %1$d</string>
     <string name="save_markup_project">Project opslaan</string>
     <string name="save_markup_project_sub">Bewaar lagen, achtergronden en bewerkingsgeschiedenis in een bewerkbaar projectbestand</string>
     <string name="failed_to_open">Kan niet worden geopend</string>

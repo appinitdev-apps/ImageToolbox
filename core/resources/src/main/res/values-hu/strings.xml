@@ -882,7 +882,7 @@
     <string name="auto_paste">Automatikus beillesztés</string>
     <string name="coordinates_rounding_tolerance">Koordináták kerekítési tűrése</string>
     <string name="corners">Sarkok</string>
-    <string name="embedded_picker_sub">Az Image Toolbox képkiválasztója</string>
+    <string name="embedded_picker_sub">Az Photo Utility Hub képkiválasztója</string>
     <string name="cupertino_switch">Cupertino</string>
     <string name="downscale_image">Kép lekicsinyítése</string>
     <string name="auto_paste_sub">Engedélyezi az alkalmazás számára, hogy automatikusan beillessze a vágólap tartalmát, így az megjelenik a főképernyőn, és feldolgozhatóvá válik</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Képek a WEBP-re</string>
     <string name="select_webp_image_to_start">A kezdéshez válassza ki a WEBP képet</string>
     <string name="manage_storage_extra_types">Nincs teljes hozzáférés a fájlokhoz</string>
-    <string name="manage_storage_extra_types_sub">Engedélyezze az összes fájlhoz való hozzáférést a JXL, QOI és más olyan képek megtekintéséhez, amelyeket nem ismer fel képként az Android. Engedély nélkül az Image Toolbox nem tudja megjeleníteni ezeket a képeket</string>
+    <string name="manage_storage_extra_types_sub">Engedélyezze az összes fájlhoz való hozzáférést a JXL, QOI és más olyan képek megtekintéséhez, amelyeket nem ismer fel képként az Android. Engedély nélkül az Photo Utility Hub nem tudja megjeleníteni ezeket a képeket</string>
     <string name="default_draw_color">Alapértelmezett rajzszín</string>
     <string name="default_draw_path_mode">Alapértelmezett rajzolási útvonal mód</string>
     <string name="add_timestamp">Időbélyeg hozzáadása</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Háttérszín Alfa formátumokhoz</string>
     <string name="background_color_for_alpha_formats_sub">Lehetővé teszi a háttérszín beállítását minden alfa-támogatással rendelkező képformátumhoz, ha le van tiltva, ez csak a nem alfa-formátumok esetén érhető el</string>
     <string name="open_markup_project">Projekt megnyitása</string>
-    <string name="open_markup_project_sub">Folytassa a korábban elmentett Image Toolbox projekt szerkesztését</string>
-    <string name="markup_project_open_failed">Nem lehet megnyitni az Image Toolbox projektet</string>
-    <string name="markup_project_missing_data">Az Image Toolbox projektből hiányoznak a projektadatok</string>
-    <string name="markup_project_corrupted">Az Image Toolbox projekt sérült</string>
-    <string name="unsupported_markup_project_version">Nem támogatott Image Toolbox projektverzió: %1$d</string>
+    <string name="open_markup_project_sub">Folytassa a korábban elmentett Photo Utility Hub projekt szerkesztését</string>
+    <string name="markup_project_open_failed">Nem lehet megnyitni az Photo Utility Hub projektet</string>
+    <string name="markup_project_missing_data">Az Photo Utility Hub projektből hiányoznak a projektadatok</string>
+    <string name="markup_project_corrupted">Az Photo Utility Hub projekt sérült</string>
+    <string name="unsupported_markup_project_version">Nem támogatott Photo Utility Hub projektverzió: %1$d</string>
     <string name="save_markup_project">Projekt mentése</string>
     <string name="save_markup_project_sub">Tárolja a rétegeket, a hátteret és a szerkesztési előzményeket egy szerkeszthető projektfájlban</string>
     <string name="failed_to_open">Nem sikerült megnyitni</string>

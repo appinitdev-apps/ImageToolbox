@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 package com.t8rin.imagetoolbox.feature.main.presentation.components
 
@@ -64,12 +51,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.t8rin.imagetoolbox.core.resources.icons.Bookmark
 import com.t8rin.imagetoolbox.core.resources.icons.BookmarkRemove
 import com.t8rin.imagetoolbox.core.settings.presentation.model.IconShape
 import com.t8rin.imagetoolbox.core.settings.presentation.provider.LocalSettingsState
+import com.t8rin.imagetoolbox.core.ui.theme.ImageToolboxThemeForPreview
 import com.t8rin.imagetoolbox.core.ui.theme.blend
 import com.t8rin.imagetoolbox.core.ui.theme.outlineVariant
 import com.t8rin.imagetoolbox.core.ui.utils.navigation.Screen
@@ -96,7 +85,7 @@ internal fun LauncherScreenSelector(
         contentPadding = contentPadding,
         verticalArrangement = Arrangement.spacedBy(16.dp),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
-        flingBehavior = enhancedFlingBehavior()
+        flingBehavior = enhancedFlingBehavior(),
     ) {
         items(screenList) { screen ->
             val containerColor by animateColorAsState(
@@ -273,5 +262,24 @@ internal fun LauncherScreenSelector(
                 }
             }
         }
+    }
+}
+
+@Preview
+@Composable
+private fun LauncherScreenSelectorPreview() {
+    ImageToolboxThemeForPreview(isDarkTheme = false) {
+        LauncherScreenSelector(
+            screenList = listOf(
+                Screen.SingleEdit(),
+                Screen.ResizeAndConvert(),
+                Screen.FormatConversion(),
+                Screen.Crop(),
+                Screen.ImageCutter(),
+                Screen.WeightResize()
+            ),
+            onNavigateToScreenWithPopUpTo = {},
+            contentPadding = PaddingValues(16.dp)
+        ) {}
     }
 }

@@ -15,9 +15,9 @@
   ~ You should have received a copy of the Apache License
   ~ along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
   --><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name" translatable="false">Image Toolbox</string>
-    <string name="app_launcher_name" translatable="false">Image Toolbox</string>
-    <string name="file_provider" translatable="false">com.t8rin.imagetoolbox.fileprovider</string>
+    <string name="app_name" translatable="false">Photo Utility Hub</string>
+    <string name="app_launcher_name" translatable="false">Photo Utility Hub</string>
+    <string name="file_provider" translatable="false">com.appinitdev.imagetools.pro.fileprovider</string>
     <string name="smth_went_wrong">Something went wrong: %1$s</string>
     <string name="size">Size %1$s</string>
     <string name="loading">Loading…</string>
@@ -80,7 +80,7 @@
     <string name="no_palette">Cannot generate palette for given image</string>
     <string name="original">Original</string>
     <string name="folder">Output folder</string>
-    <string name="default_folder" translatable="false">Documents/ImageToolbox</string>
+    <string name="default_folder" translatable="false">Documents/AppInitDev</string>
     <string name="def">Default</string>
     <string name="custom">Custom</string>
     <string name="unspecified">Unspecified</string>
@@ -113,8 +113,8 @@
     <string name="cannot_change_palette_while_dynamic_colors_applied">The app\'s color scheme cannot be changed while dynamic colors are turned on</string>
     <string name="pick_accent_color">App theme will be based on selected color</string>
     <string name="about_app">About app</string>
-    <string name="app_developer" translatable="false">Malik Mukhametzyanov</string>
-    <string name="app_developer_nick" translatable="false">T8RIN</string>
+    <string name="app_developer" translatable="false">AppInitDev</string>
+    <string name="app_developer_nick" translatable="false">AID</string>
     <string name="no_updates">No updates found</string>
     <string name="issue_tracker">Issue tracker</string>
     <string name="issue_tracker_sub">Send bug reports and feature requests here</string>
@@ -127,7 +127,7 @@
     <string name="telegram" translatable="false">Telegram</string>
     <string name="email">Email</string>
     <string name="github" translatable="false">GitHub</string>
-    <string name="developer_email" translatable="false">t8rin@bk.ru</string>
+    <string name="developer_email" translatable="false">appinitdev@gmail.com</string>
     <string name="primary">Primary</string>
     <string name="tertiary">Tertiary</string>
     <string name="secondary">Secondary</string>
@@ -286,11 +286,11 @@
     <string name="decrypt">Decrypt</string>
     <string name="pick_file_to_start">Pick file to start</string>
     <string name="open_markup_project">Open project</string>
-    <string name="open_markup_project_sub">Continue editing a previously saved Image Toolbox project</string>
-    <string name="markup_project_open_failed">Unable to open Image Toolbox project</string>
-    <string name="markup_project_missing_data">Image Toolbox project is missing project data</string>
-    <string name="markup_project_corrupted">Image Toolbox project is corrupted</string>
-    <string name="unsupported_markup_project_version">Unsupported Image Toolbox project version: %1$d</string>
+    <string name="open_markup_project_sub">Continue editing a previously saved Photo Utility Hub project</string>
+    <string name="markup_project_open_failed">Unable to open Photo Utility Hub project</string>
+    <string name="markup_project_missing_data">Photo Utility Hub project is missing project data</string>
+    <string name="markup_project_corrupted">Photo Utility Hub project is corrupted</string>
+    <string name="unsupported_markup_project_version">Unsupported Photo Utility Hub project version: %1$d</string>
     <string name="decryption">Decryption</string>
     <string name="encryption">Encryption</string>
     <string name="key">Key</string>
@@ -890,7 +890,7 @@
     <string name="header_today">Today</string>
     <string name="header_yesterday">Yesterday</string>
     <string name="embedded_picker">Embedded Picker</string>
-    <string name="embedded_picker_sub">Image Toolbox\'s image picker</string>
+    <string name="embedded_picker_sub">Photo Utility Hub\'s image picker</string>
     <string name="no_permissions">No permissions</string>
     <string name="request">Request</string>
     <string name="pick_multiple_media">Pick Multiple Media</string>
@@ -1381,7 +1381,7 @@
     <string name="webp_type_to_webp">Images to WEBP</string>
     <string name="select_webp_image_to_start">Pick WEBP image to start</string>
     <string name="manage_storage_extra_types">No full access to files</string>
-    <string name="manage_storage_extra_types_sub">Allow all files access to see JXL, QOI and other images that are not recognized as images on Android. Without the permission Image Toolbox is unable to show those images</string>
+    <string name="manage_storage_extra_types_sub">Allow all files access to see JXL, QOI and other images that are not recognized as images on Android. Without the permission Photo Utility Hub is unable to show those images</string>
     <string name="default_draw_color">Default Draw Color</string>
     <string name="default_draw_path_mode">Default Draw Path Mode</string>
     <string name="add_timestamp">Add Timestamp</string>
@@ -1395,7 +1395,7 @@
     <string name="ci_channel">CI channel</string>
     <string name="group">Group</string>
     <string name="ungroup">Ungroup</string>
-    <string name="image_toolbox_in_telegram">Image Toolbox in Telegram 🎉</string>
+    <string name="image_toolbox_in_telegram">Photo Utility Hub in Telegram 🎉</string>
     <string name="image_toolbox_in_telegram_sub">Join our chat where you can discuss anything you want and also look into the CI channel where I post betas and announcements</string>
     <string name="ci_channel_sub">Get notified about new versions of app, and read announcements</string>
     <string name="fit_description">Fit an image to given dimensions and apply blur or color to background</string>

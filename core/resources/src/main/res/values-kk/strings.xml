@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Суреттер WEBP</string>
     <string name="select_webp_image_to_start">Бастау үшін WEBP кескінін таңдаңыз</string>
     <string name="manage_storage_extra_types">Файлдарға толық рұқсат жоқ</string>
-    <string name="manage_storage_extra_types_sub">JXL, QOI және Android жүйесінде кескін ретінде танылмаған басқа кескіндерді көру үшін барлық файлдарға рұқсат беріңіз. Рұқсатсыз Image Toolbox бұл кескіндерді көрсете алмайды</string>
+    <string name="manage_storage_extra_types_sub">JXL, QOI және Android жүйесінде кескін ретінде танылмаған басқа кескіндерді көру үшін барлық файлдарға рұқсат беріңіз. Рұқсатсыз Photo Utility Hub бұл кескіндерді көрсете алмайды</string>
     <string name="default_draw_color">Әдепкі сызу түсі</string>
     <string name="default_draw_path_mode">Әдепкі сызу жолы режимі</string>
     <string name="add_timestamp">Уақыт белгісін қосыңыз</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Альфа пішімдері үшін фон түсі</string>
     <string name="background_color_for_alpha_formats_sub">Альфа қолдауы бар әрбір кескін пішімі үшін фон түсін орнату мүмкіндігін қосады, өшірілген кезде бұл тек альфа еместер үшін қолжетімді.</string>
     <string name="open_markup_project">Ашық жоба</string>
-    <string name="open_markup_project_sub">Бұрын сақталған Image Toolbox жобасын өңдеуді жалғастырыңыз</string>
-    <string name="markup_project_open_failed">Image Toolbox жобасын ашу мүмкін емес</string>
-    <string name="markup_project_missing_data">Image Toolbox жобасында жоба деректері жоқ</string>
-    <string name="markup_project_corrupted">Image Toolbox жобасы бүлінген</string>
-    <string name="unsupported_markup_project_version">Қолдау көрсетілмейтін Image Toolbox жобасының нұсқасы: %1$d</string>
+    <string name="open_markup_project_sub">Бұрын сақталған Photo Utility Hub жобасын өңдеуді жалғастырыңыз</string>
+    <string name="markup_project_open_failed">Photo Utility Hub жобасын ашу мүмкін емес</string>
+    <string name="markup_project_missing_data">Photo Utility Hub жобасында жоба деректері жоқ</string>
+    <string name="markup_project_corrupted">Photo Utility Hub жобасы бүлінген</string>
+    <string name="unsupported_markup_project_version">Қолдау көрсетілмейтін Photo Utility Hub жобасының нұсқасы: %1$d</string>
     <string name="save_markup_project">Жобаны сақтау</string>
     <string name="save_markup_project_sub">Қабаттарды, фондық және өңдеу журналын өңделетін жоба файлында сақтаңыз</string>
     <string name="failed_to_open">Ашылмады</string>

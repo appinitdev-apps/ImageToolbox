@@ -865,7 +865,7 @@
     <string name="header_today">오늘</string>
     <string name="header_yesterday">어제</string>
     <string name="embedded_picker">내장 선택기</string>
-    <string name="embedded_picker_sub">Image Toolbox의 이미지 선택기</string>
+    <string name="embedded_picker_sub">Photo Utility Hub의 이미지 선택기</string>
     <string name="no_permissions">권한이 없습니다</string>
     <string name="request">요청</string>
     <string name="pick_multiple_media">여러 미디어 선택</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">WEBP에 대한 이미지</string>
     <string name="select_webp_image_to_start">시작하려면 WEBP 이미지를 선택하세요.</string>
     <string name="manage_storage_extra_types">파일에 대한 전체 액세스 권한이 없습니다.</string>
-    <string name="manage_storage_extra_types_sub">안드로이드에서 이미지로 인식되지 않는 JXL, QOI 등의 이미지를 보려면 모든 파일 접근을 허용하세요. 권한이 없으면 Image Toolbox가 해당 이미지를 표시할 수 없습니다.</string>
+    <string name="manage_storage_extra_types_sub">안드로이드에서 이미지로 인식되지 않는 JXL, QOI 등의 이미지를 보려면 모든 파일 접근을 허용하세요. 권한이 없으면 Photo Utility Hub가 해당 이미지를 표시할 수 없습니다.</string>
     <string name="default_draw_color">기본 그리기 색상</string>
     <string name="default_draw_path_mode">기본 그리기 경로 모드</string>
     <string name="add_timestamp">타임스탬프 추가</string>
@@ -2192,11 +2192,11 @@
     <string name="keep_date_time">날짜 시간 유지</string>
     <string name="keep_date_time_sub">날짜 및 시간과 관련된 EXIF ​​태그를 항상 유지하며, EXIF ​​유지 옵션과 독립적으로 작동합니다.</string>
     <string name="open_markup_project">프로젝트 열기</string>
-    <string name="open_markup_project_sub">이전에 저장한 Image Toolbox 프로젝트 계속 편집</string>
+    <string name="open_markup_project_sub">이전에 저장한 Photo Utility Hub 프로젝트 계속 편집</string>
     <string name="markup_project_open_failed">이미지 도구 상자 프로젝트를 열 수 없습니다</string>
-    <string name="markup_project_missing_data">Image Toolbox 프로젝트에 프로젝트 데이터가 없습니다.</string>
+    <string name="markup_project_missing_data">Photo Utility Hub 프로젝트에 프로젝트 데이터가 없습니다.</string>
     <string name="markup_project_corrupted">이미지 도구 상자 프로젝트가 손상되었습니다</string>
-    <string name="unsupported_markup_project_version">지원되지 않는 Image Toolbox 프로젝트 버전: %1$d</string>
+    <string name="unsupported_markup_project_version">지원되지 않는 Photo Utility Hub 프로젝트 버전: %1$d</string>
     <string name="save_markup_project">프로젝트 저장</string>
     <string name="save_markup_project_sub">편집 가능한 프로젝트 파일에 레이어, 배경 및 편집 기록 저장</string>
     <string name="failed_to_open">열지 못했습니다.</string>

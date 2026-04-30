@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 @file:Suppress("LocalVariableName", "FunctionName")
 
@@ -47,7 +34,7 @@ object GeometryUtils {
     /**
      * Return true if the given point is contained inside the boundary.
      * See: [Short_Notes](http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html)
-     * 
+     *
      * @param test The point to check
      * @return true if the point is inside the boundary, false otherwise
      */
@@ -124,7 +111,7 @@ object GeometryUtils {
 
     /**
      * Resolve case frame collage 3_3
-     * 
+     *
      * @param pointList list
      * @param space     space
      * @param bound     bound
@@ -724,7 +711,7 @@ object GeometryUtils {
      * Solve equations
      * ax + by = c
      * dx + ey = f
-     * 
+     *
      * @param a point
      * @param b point
      * @param c point
@@ -823,7 +810,7 @@ object GeometryUtils {
 
     /**
      * Implement Jarvis Algorithm. Jarvis algorithm or the gift wrapping algorithm is an algorithm for computing the convex hull of a given set of points.
-     * 
+     *
      * @param points points
      * @return the convex hull of a given set of points
      */

@@ -869,7 +869,7 @@
     <string name="cupertino_switch_sub">از سوئیچ مانند iOS بر اساس سیستم طراحی کوپرتینو استفاده می کند</string>
     <string name="channels_configuration">پیکربندی کانال‌ها</string>
     <string name="embedded_picker">انتخاب‌گر تصویر جعبه‌ابزار تصویر</string>
-    <string name="embedded_picker_sub">انتخابگر تصویر در Image Toolbox</string>
+    <string name="embedded_picker_sub">انتخابگر تصویر در Photo Utility Hub</string>
     <string name="auto_paste">جای‌گذاری خودکار</string>
     <string name="auto_paste_sub">به برنامه اجازه می‌دهد تا داده‌های کلیپ‌بورد را به‌طور خودکار جای‌گذاری کند، بنابراین در صفحه اصلی ظاهر می‌شود و می‌توانید آن‌ها را پردازش کنید.</string>
     <string name="harmonization_color">رنگ هماهنگ‌سازی</string>
@@ -1394,7 +1394,7 @@
     <string name="links">پیوندها</string>
     <string name="ico_size_warning">فایل‌های ICO را فقط می‌توان در حداکثر اندازه ۲۵۶×۲۵۶ ذخیره کرد</string>
     <string name="manage_storage_extra_types">عدم دسترسی کامل به فایل ها</string>
-    <string name="manage_storage_extra_types_sub">برای دیدن JXL، QOI و سایر تصاویری که در Android به‌عنوان تصویر شناخته نمی‌شوند، به همه فایل‌ها اجازه دسترسی دهید. بدون مجوز Image Toolbox قادر به نمایش آن تصاویر نیست</string>
+    <string name="manage_storage_extra_types_sub">برای دیدن JXL، QOI و سایر تصاویری که در Android به‌عنوان تصویر شناخته نمی‌شوند، به همه فایل‌ها اجازه دسترسی دهید. بدون مجوز Photo Utility Hub قادر به نمایش آن تصاویر نیست</string>
     <string name="default_draw_color">رنگ ترسیم پیش فرض</string>
     <string name="default_draw_path_mode">حالت پیش‌فرض ترسیم مسیر</string>
     <string name="add_timestamp">اضافه کردن زمان</string>

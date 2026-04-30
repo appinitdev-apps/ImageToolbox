@@ -865,7 +865,7 @@
     <string name="header_today">Avui</string>
     <string name="header_yesterday">Ahir</string>
     <string name="embedded_picker">Selector incrustat</string>
-    <string name="embedded_picker_sub">Selector d\'imatges de Image Toolbox</string>
+    <string name="embedded_picker_sub">Selector d\'imatges de Photo Utility Hub</string>
     <string name="no_permissions">Sense permisos</string>
     <string name="request">Sol·licitud</string>
     <string name="pick_multiple_media">Trieu diversos mitjans</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">Imatges al WEBP</string>
     <string name="select_webp_image_to_start">Trieu la imatge WEBP per començar</string>
     <string name="manage_storage_extra_types">No hi ha accés complet als fitxers</string>
-    <string name="manage_storage_extra_types_sub">Permet l\'accés a tots els fitxers per veure JXL, QOI i altres imatges que no es reconeixen com a imatges a Android. Sense el permís Image Toolbox no pot mostrar aquestes imatges</string>
+    <string name="manage_storage_extra_types_sub">Permet l\'accés a tots els fitxers per veure JXL, QOI i altres imatges que no es reconeixen com a imatges a Android. Sense el permís Photo Utility Hub no pot mostrar aquestes imatges</string>
     <string name="default_draw_color">Color de dibuix per defecte</string>
     <string name="default_draw_path_mode">Mode de camí de dibuix predeterminat</string>
     <string name="add_timestamp">Afegeix marca de temps</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Color de fons per a formats alfa</string>
     <string name="background_color_for_alpha_formats_sub">Afegeix la possibilitat d\'establir el color de fons per a cada format d\'imatge amb suport alfa, quan està desactivat, només està disponible per als que no són alfa</string>
     <string name="open_markup_project">Projecte obert</string>
-    <string name="open_markup_project_sub">Continueu editant un projecte de Image Toolbox desat anteriorment</string>
-    <string name="markup_project_open_failed">No es pot obrir el projecte Image Toolbox</string>
-    <string name="markup_project_missing_data">Falten dades del projecte al projecte Image Toolbox</string>
-    <string name="markup_project_corrupted">El projecte Image Toolbox està malmès</string>
-    <string name="unsupported_markup_project_version">Versió del projecte Image Toolbox no compatible: %1$d</string>
+    <string name="open_markup_project_sub">Continueu editant un projecte de Photo Utility Hub desat anteriorment</string>
+    <string name="markup_project_open_failed">No es pot obrir el projecte Photo Utility Hub</string>
+    <string name="markup_project_missing_data">Falten dades del projecte al projecte Photo Utility Hub</string>
+    <string name="markup_project_corrupted">El projecte Photo Utility Hub està malmès</string>
+    <string name="unsupported_markup_project_version">Versió del projecte Photo Utility Hub no compatible: %1$d</string>
     <string name="save_markup_project">Guarda el projecte</string>
     <string name="save_markup_project_sub">Emmagatzema capes, fons i historial d\'edició en un fitxer de projecte editable</string>
     <string name="failed_to_open">No s\'ha pogut obrir</string>

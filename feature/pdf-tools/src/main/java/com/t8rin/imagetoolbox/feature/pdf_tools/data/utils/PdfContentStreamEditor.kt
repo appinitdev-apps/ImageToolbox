@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 package com.t8rin.imagetoolbox.feature.pdf_tools.data.utils
 
@@ -39,32 +26,32 @@ import java.io.OutputStream
 internal open class PdfContentStreamEditor(val document: PDDocument, page: PDPage?) :
     PDFGraphicsStreamEngine(page) {
     /**
-     * 
-     * 
+     *
+     *
      * This method retrieves the next operation before its registered
      * listener is called. The default does nothing.
-     * 
-     * 
-     * 
+     *
+     *
+     *
      * Override this method to retrieve state information from before the
      * operation execution.
-     * 
+     *
      */
     protected fun nextOperation(operator: Operator?, operands: List<COSBase>) {
     }
 
     /**
-     * 
-     * 
+     *
+     *
      * This method writes content stream operations to the target canvas. The default
      * implementation writes them as they come, so it essentially generates identical
      * copies of the original instructions [.processOperator]
      * forwards to it.
-     * 
-     * 
-     * 
+     *
+     *
+     *
      * Override this method to achieve some fancy editing effect.
-     * 
+     *
      */
     @Throws(IOException::class)
     protected open fun write(

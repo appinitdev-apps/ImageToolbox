@@ -861,7 +861,7 @@
     <string name="pick">Wählen</string>
     <string name="header_today">Heute</string>
     <string name="header_yesterday">Gestern</string>
-    <string name="embedded_picker_sub">Image Toolbox\'s Bildauswahl</string>
+    <string name="embedded_picker_sub">Photo Utility Hub\'s Bildauswahl</string>
     <string name="no_permissions">Keine Berechtigungen</string>
     <string name="channels_configuration">Kanal-Konfiguration</string>
     <string name="embedded_picker">Integrierte Auswahl</string>
@@ -1357,7 +1357,7 @@
     <string name="ci_channel_sub">Lass dich über neue Versionen der App benachrichtigen und lies Ankündigungen</string>
     <string name="image_toolbox_in_telegram_sub">Tritt unserem Chat bei, in dem du alles besprechen kannst, was du willst, und schau auch in den CI-Kanal, wo ich Betas und Ankündigungen poste</string>
     <string name="manage_storage_extra_types">Kein vollständiger Zugriff auf Dateien</string>
-    <string name="manage_storage_extra_types_sub">Erlaube allen Dateien den Zugriff, um JXL, QOI und andere Bilder zu sehen, die unter Android nicht als Bilder erkannt werden. Ohne diese Berechtigung kann Image Toolbox diese Bilder nicht anzeigen</string>
+    <string name="manage_storage_extra_types_sub">Erlaube allen Dateien den Zugriff, um JXL, QOI und andere Bilder zu sehen, die unter Android nicht als Bilder erkannt werden. Ohne diese Berechtigung kann Photo Utility Hub diese Bilder nicht anzeigen</string>
     <string name="one_time_save_location">Einmaliger Speicherort</string>
     <string name="one_time_save_location_sub">Einmalige Speicherorte anzeigen und bearbeiten, die du durch langes Drücken der Speichertaste in fast allen Optionen verwenden kannst</string>
     <string name="gif_type_to_webp">GIF zu WEBP</string>
@@ -1369,7 +1369,7 @@
     <string name="webp_type_to_webp_sub">Stapel an Bildern in eine WEBP-Datei umwandeln</string>
     <string name="webp_type_to_webp">Bilder zu WEBP</string>
     <string name="select_webp_image_to_start">WEBP-Bild zum Starten auswählen</string>
-    <string name="image_toolbox_in_telegram">Image Toolbox in Telegram 🎉</string>
+    <string name="image_toolbox_in_telegram">Photo Utility Hub in Telegram 🎉</string>
     <string name="custom_options">Eigene Optionen</string>
     <string name="custom_params_info">Optionen sollten nach folgendem Muster eingegeben werden: \"--{option_name} {value}\"</string>
     <string name="free_corners">Freie Ecken</string>
@@ -2193,11 +2193,11 @@
     <string name="background_color_for_alpha_formats">Hintergrundfarbe für Alpha-Formate</string>
     <string name="background_color_for_alpha_formats_sub">Fügt die Möglichkeit hinzu, die Hintergrundfarbe für jedes Bildformat mit Alpha-Unterstützung festzulegen. Wenn diese Option deaktiviert ist, ist sie nur für Nicht-Alpha-Formate verfügbar</string>
     <string name="open_markup_project">Projekt öffnen</string>
-    <string name="open_markup_project_sub">Bearbeiten Sie weiterhin ein zuvor gespeichertes Image Toolbox-Projekt</string>
-    <string name="markup_project_open_failed">Das Image Toolbox-Projekt kann nicht geöffnet werden</string>
-    <string name="markup_project_missing_data">Im Image Toolbox-Projekt fehlen Projektdaten</string>
-    <string name="markup_project_corrupted">Das Image Toolbox-Projekt ist beschädigt</string>
-    <string name="unsupported_markup_project_version">Nicht unterstützte Image Toolbox-Projektversion: %1$d</string>
+    <string name="open_markup_project_sub">Bearbeiten Sie weiterhin ein zuvor gespeichertes Photo Utility Hub-Projekt</string>
+    <string name="markup_project_open_failed">Das Photo Utility Hub-Projekt kann nicht geöffnet werden</string>
+    <string name="markup_project_missing_data">Im Photo Utility Hub-Projekt fehlen Projektdaten</string>
+    <string name="markup_project_corrupted">Das Photo Utility Hub-Projekt ist beschädigt</string>
+    <string name="unsupported_markup_project_version">Nicht unterstützte Photo Utility Hub-Projektversion: %1$d</string>
     <string name="save_markup_project">Projekt speichern</string>
     <string name="save_markup_project_sub">Speichern Sie Ebenen, Hintergrund und Bearbeitungsverlauf in einer bearbeitbaren Projektdatei</string>
     <string name="failed_to_open">Öffnen fehlgeschlagen</string>

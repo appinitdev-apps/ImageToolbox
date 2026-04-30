@@ -884,7 +884,7 @@
     <string name="header_today">Сегодня</string>
     <string name="header_yesterday">Вчера</string>
     <string name="embedded_picker">Встроенное средство выбора</string>
-    <string name="embedded_picker_sub">Использует собственный инструмент выбора изображения Image Toolbox вместо предопределенных системой</string>
+    <string name="embedded_picker_sub">Использует собственный инструмент выбора изображения Photo Utility Hub вместо предопределенных системой</string>
     <string name="no_permissions">Нет разрешений</string>
     <string name="request">Запросить</string>
     <string name="svg_warning">Использование этого инструмента для отслеживания больших изображений без уменьшения масштаба не рекомендуется, это может привести к сбою и увеличению времени обработки</string>
@@ -2195,11 +2195,11 @@
     <string name="background_color_for_alpha_formats">Цвет фона для альфа-форматов</string>
     <string name="background_color_for_alpha_formats_sub">Добавляет возможность устанавливать цвет фона для каждого формата изображения с поддержкой альфа-канала, при отключении это доступно только для не-альфа-форматов.</string>
     <string name="open_markup_project">Открыть проект</string>
-    <string name="open_markup_project_sub">Продолжить редактирование ранее сохраненного проекта Image Toolbox</string>
-    <string name="markup_project_open_failed">Невозможно открыть проект Image Toolbox</string>
-    <string name="markup_project_missing_data">В проекте Image Toolbox отсутствуют данные проекта</string>
-    <string name="markup_project_corrupted">Проект Image Toolbox поврежден.</string>
-    <string name="unsupported_markup_project_version">Неподдерживаемая версия проекта Image Toolbox: %1$d.</string>
+    <string name="open_markup_project_sub">Продолжить редактирование ранее сохраненного проекта Photo Utility Hub</string>
+    <string name="markup_project_open_failed">Невозможно открыть проект Photo Utility Hub</string>
+    <string name="markup_project_missing_data">В проекте Photo Utility Hub отсутствуют данные проекта</string>
+    <string name="markup_project_corrupted">Проект Photo Utility Hub поврежден.</string>
+    <string name="unsupported_markup_project_version">Неподдерживаемая версия проекта Photo Utility Hub: %1$d.</string>
     <string name="save_markup_project">Сохранить проект</string>
     <string name="save_markup_project_sub">Храните слои, фон и историю редактирования в редактируемом файле проекта.</string>
     <string name="failed_to_open">Не удалось открыть</string>

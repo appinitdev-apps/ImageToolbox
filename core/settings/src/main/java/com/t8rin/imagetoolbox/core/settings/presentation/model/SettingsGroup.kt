@@ -1,19 +1,6 @@
-/*
- * ImageToolbox is an image editor for android
- * Copyright (c) 2026 T8RIN (Malik Mukhametzyanov)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * You should have received a copy of the Apache License
- * along with this program.  If not, see <http://www.apache.org/licenses/LICENSE-2.0>.
- */
+/* #AppInitDev -> Photo Utility Hub */
+
+
 
 @file:Suppress("KotlinConstantConditions")
 
@@ -61,9 +48,9 @@ sealed class SettingsGroup(
         icon = Icons.Rounded.MobileCast,
         titleId = R.string.contact_me,
         settingsList = listOf(
-            Setting.Author,
-            Setting.SendLogs,
-            Setting.Donate
+//            Setting.Author,
+//            Setting.SendLogs,
+//            Setting.Donate
         ),
         initialState = true
     )
@@ -88,8 +75,8 @@ sealed class SettingsGroup(
         settingsList = listOf(
             Setting.ColorBlindScheme,
             Setting.AllowImageMonet,
-            Setting.BorderThickness,
-            Setting.MainScreenTitle
+            //Setting.BorderThickness,
+            //Setting.MainScreenTitle
         ),
         initialState = false
     )
@@ -102,10 +89,10 @@ sealed class SettingsGroup(
             Setting.SwitchType,
             Setting.SliderType,
             Setting.ShapeType,
-            Setting.CornersSize,
-            Setting.FlingType,
+            //Setting.CornersSize,
+            //Setting.FlingType,
             Setting.UseCompactSelectors,
-            Setting.DragHandleWidth,
+            //Setting.DragHandleWidth,
             Setting.CenterAlignDialogButtons,
             Setting.FabAlignment
         ),
@@ -402,32 +389,32 @@ sealed class SettingsGroup(
     companion object {
         val entries: List<SettingsGroup> by lazy {
             listOf(
-                ContactMe,
+                //ContactMe,
                 PrimaryCustomization,
                 SecondaryCustomization,
                 NightMode,
                 Layout,
-                Emoji,
-                Confetti,
-                Shadows,
+                //Emoji,
+                //Confetti,
+                //Shadows,
                 Haptics,
                 Screen,
                 Font,
                 Behavior,
                 ToolsArrangement,
-                Presets,
+                //Presets,
                 DefaultValues,
                 Draw,
-                Exif,
+                //Exif,
                 Folder,
                 Filename,
                 Clipboard,
                 Cache,
                 ImageSource,
                 BackupRestore,
-                Firebase,
-                Updates,
-                AboutApp
+                //Firebase,
+                //Updates,
+               // AboutApp
             ).filter {
                 !(it is Firebase && Flavor.isFoss())
             }

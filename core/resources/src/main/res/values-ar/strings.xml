@@ -865,7 +865,7 @@
     <string name="header_today">اليوم</string>
     <string name="header_yesterday">أمس</string>
     <string name="embedded_picker">المنتقى المضمن</string>
-    <string name="embedded_picker_sub">يستخدم منتقي الصور الخاص بـ Image Toolbox بدلاً من الصور المحددة مسبقًا في النظام</string>
+    <string name="embedded_picker_sub">يستخدم منتقي الصور الخاص بـ Photo Utility Hub بدلاً من الصور المحددة مسبقًا في النظام</string>
     <string name="no_permissions">لا أذونات</string>
     <string name="request">الطلب</string>
     <string name="pick_multiple_media">اختر صور متعددة</string>
@@ -1354,7 +1354,7 @@
     <string name="webp_type_to_webp">الصور إلى WEBP</string>
     <string name="select_webp_image_to_start">اختر صورة WEBP للبدء</string>
     <string name="manage_storage_extra_types">لا يوجد وصول كامل إلى الملفات</string>
-    <string name="manage_storage_extra_types_sub">السماح لجميع الملفات بالوصول لرؤية JXL وQOI والصور الأخرى التي لم يتم التعرف عليها كصور على Android. بدون إذن، يتعذر على Image Toolbox عرض تلك الصور</string>
+    <string name="manage_storage_extra_types_sub">السماح لجميع الملفات بالوصول لرؤية JXL وQOI والصور الأخرى التي لم يتم التعرف عليها كصور على Android. بدون إذن، يتعذر على Photo Utility Hub عرض تلك الصور</string>
     <string name="default_draw_color">لون الرسم الافتراضي</string>
     <string name="default_draw_path_mode">وضع رسم المسار الافتراضي</string>
     <string name="add_timestamp">أضف الطابع الزمني</string>
@@ -2197,11 +2197,11 @@
     <string name="background_color_for_alpha_formats">لون الخلفية لتنسيقات ألفا</string>
     <string name="background_color_for_alpha_formats_sub">يضيف القدرة على تعيين لون الخلفية لكل تنسيق صورة مع دعم ألفا، عند تعطيله يكون هذا متاحًا للتنسيقات غير ألفا فقط</string>
     <string name="open_markup_project">مشروع مفتوح</string>
-    <string name="open_markup_project_sub">استمر في تحرير مشروع Image Toolbox المحفوظ مسبقًا</string>
-    <string name="markup_project_open_failed">غير قادر على فتح مشروع Image Toolbox</string>
-    <string name="markup_project_missing_data">يفتقد مشروع Image Toolbox بيانات المشروع</string>
-    <string name="markup_project_corrupted">مشروع Image Toolbox تالف</string>
-    <string name="unsupported_markup_project_version">إصدار مشروع Image Toolbox غير مدعوم: %1$d</string>
+    <string name="open_markup_project_sub">استمر في تحرير مشروع Photo Utility Hub المحفوظ مسبقًا</string>
+    <string name="markup_project_open_failed">غير قادر على فتح مشروع Photo Utility Hub</string>
+    <string name="markup_project_missing_data">يفتقد مشروع Photo Utility Hub بيانات المشروع</string>
+    <string name="markup_project_corrupted">مشروع Photo Utility Hub تالف</string>
+    <string name="unsupported_markup_project_version">إصدار مشروع Photo Utility Hub غير مدعوم: %1$d</string>
     <string name="save_markup_project">حفظ المشروع</string>
     <string name="save_markup_project_sub">قم بتخزين الطبقات والخلفية وسجل التحرير في ملف مشروع قابل للتحرير</string>
     <string name="failed_to_open">فشل في الفتح</string>
